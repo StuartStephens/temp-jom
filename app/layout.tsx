@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Gothic_A1 } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const gothic = Gothic_A1({ subsets: ['latin'], weight: '400' })
 
 export const metadata: Metadata = {
   title: 'Joel Osteen Ministries',
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={gothic.className}>{children}</body>
     </html>
   )
 }
