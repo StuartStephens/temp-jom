@@ -1,6 +1,6 @@
 "use client";
 
-import { MENU_TYPE, Menu } from "../../../../components/navigation/Menu";
+import { MENU_TYPE, Menu } from "../../../components/navbar";
 
 export interface IPrimaryMenuProps { }
 
