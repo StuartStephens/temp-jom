@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Navbar } from "react-bootstrap";
 import { useAuth } from "../../contexts/Auth/Context";
 import {
-    // IMenuItem,
+    IMenuItem,
     useUIStateContext,
 } from "../../contexts/UIStateContext/Context";
 import Logo from "../../components/navbar/Logo";
@@ -28,7 +28,7 @@ export interface IMenuProps {
 export function Menu(props: any) {
     const { checkIsLoggedIn } = useAuth();
     const { menuType, onMenuSelect } = props;
-    const [menuItems, setMenuItems] = useState([]);
+    const [menuItems, setMenuItems] = useState<IMenuItem[]>([]);
 
     const { companyDetails, menuStates, getMenuItemsByMenuStateName } =
         useUIStateContext();
