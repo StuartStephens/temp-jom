@@ -76,7 +76,9 @@ export default function SearchSortFilter({
       case "prayerProperty":
         setPrayerProperty(value);
         onPrayerPropertyChanged(value);
+        break;
       default:
+        break;
     }
   }
 
