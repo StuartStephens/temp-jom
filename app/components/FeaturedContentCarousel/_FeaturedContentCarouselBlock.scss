@@ -1,0 +1,66 @@
+.featured-carousel-block {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  .aco-carousel-ad {
+    height: 420px;
+    @include media-breakpoint-up(md) {
+      height: 250px;
+    }
+  }
+}
+
+.aco-carousel-ad {
+  background-color: transparent;
+  .aco-carousel-caption-layout {
+    top: 0;
+    text-align: left;
+  }
+
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include media-breakpoint-up(md) {
+      align-items: flex-end;
+    }
+
+    padding-left: 4%;
+  }
+
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include media-breakpoint-up(md) {
+      align-items: flex-start;
+      text-align: left;
+    }
+    padding-right: 4%;
+  }
+
+  .aco-carousel-image {
+    max-height: 200px;
+  }
+  .button-row {
+    width: 100%;
+    @include media-breakpoint-up(md) {
+      width: auto;
+    }
+    .aco-button {
+      width: 100%;
+      @include media-breakpoint-up(md) {
+        width: auto;
+      }
+    }
+  }
+  &.aco-carousel-ad-variant-fw {
+    .aco-carousel-image {
+      max-height: 450px;
+    }
+  }
+}

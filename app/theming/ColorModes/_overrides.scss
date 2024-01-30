@@ -1,0 +1,152 @@
+/*body tag will not inherit the theme, we only apply it at the main down*/
+
+body {
+  --bs-body-font-weight: 300;
+}
+
+main {
+  margin: 0;
+  font-family: $font-family-museo;
+  // font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.btn {
+  --bs-btn-bg: transparent;
+  font-family: $font-family-gothic;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  line-height: initial;
+  padding: 0.75rem;
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #{$primary};
+  --bs-btn-border-color: #{$primary};
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #{$primary};
+  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #{$primary};
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #{$primary};
+  --bs-btn-disabled-border-color: #{$primary};
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #{$primary};
+  --bs-btn-bg: #fff;
+  --bs-btn-border-color: #{$primary};
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #{$primary};
+  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #{$primary};
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #{$primary};
+  --bs-btn-disabled-border-color: #{$primary};
+}
+
+.account-banner {
+  background-color: gray;
+  // background-image: url($accountBannerUrl);
+  .btn {
+    color: white;
+  }
+  & .banner-body {
+    min-height: 350px;
+  }
+}
+
+.nav {
+  background-color: $tertiary;
+  font-family: $font-family-museo;
+  --bs-nav-link-color: --bs-body-color;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.navbar-nav .nav-link {
+  letter-spacing: 0.05rem;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-radius: 0;
+  --bs-nav-tabs-border-width: 0;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  --bs-nav-tabs-link-active-color: $primary;
+  --bs-nav-tabs-link-active-bg: transparent;
+  --bs-nav-tabs-link-active-border-color: var(--bs-border-color)
+    var(--bs-border-color) var(--bs-body-bg);
+  border-bottom: 5px solid var(--bs-primary);
+}
+
+.nav-tabs .nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  // font-family: museo;
+  &:hover {
+    border-bottom: 5px solid var(--bs-secondary);
+    color: var(--bs-primary);
+  }
+}
+
+// $custom-colors: (
+//   "linkColor": $linkColor,
+//   "jombutton": $linkColor,
+// );
+
+// // Merge the maps
+// $theme-colors: map-merge($theme-colors, $custom-colors);
+
+$jombutton-background: transparent;
+$jombutton-color: $linkColor;
+$jombutton-hover-background: transparent;
+$jombutton-hover-color: black;
+$jombutton-hover-border: transparent;
+$jombutton-border: transparent;
+
+$jombutton-active-background: transparent;
+$jombutton-active-color: --bs-body-color;
+$jombutton-active-hover-background: transparent;
+$jombutton-active-border: transparent;
+
+$jombutton-disabled-background: transparent;
+$jombutton-disabled-color: gray;
+$jombutton-disabled-hover-background: transparent;
+$jombutton-disabled-border: transparent;
+
+.btn-jombutton {
+  --bs-btn-color: #{$jombutton-color};
+  --bs-btn-bg: $jombutton-background;
+  --bs-btn-border-color: #{$jombutton-border};
+  --bs-btn-hover-color: #{$jombutton-hover-color};
+  --bs-btn-hover-bg: #{$jombutton-hover-background};
+  --bs-btn-hover-border-color: #{$jombutton-hover-border};
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #{$jombutton-active-color};
+  --bs-btn-active-bg: #{$jombutton-active-background};
+  --bs-btn-active-border-color: #{$jombutton-active-border};
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #{$jombutton-disabled-color};
+  --bs-btn-disabled-bg: #{$jombutton-disabled-background};
+  --bs-btn-disabled-border-color: #{$jombutton-disabled-border};
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: $font-family-gothic;
+  font-size: 1.25rem;
+}

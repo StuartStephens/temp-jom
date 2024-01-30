@@ -1,0 +1,25 @@
+.growing-list {
+  .search-sort-filter {
+    background-color: $subtle;
+    .button-row {
+      width: 100%;
+      text-align: center;
+      @include media-breakpoint-up(md) {
+        width: auto;
+        text-align: right;
+      }
+      .btn {
+        width: 100%;
+        @include media-breakpoint-up(md) {
+          width: auto;
+        }
+      }
+    }
+    .facet-checkbox {
+      font-size: 1.25rem;
+    }
+    .form-check-inline {
+      margin-right: 0.5rem;
+    }
+  }
+}

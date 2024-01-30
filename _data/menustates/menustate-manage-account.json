@@ -1,0 +1,54 @@
+{
+  "id": "state-manage-account",
+  "name": "state-manage-account",
+  "menuItems": [
+    {
+      "id": "dashboard",
+      "Href": "/manage-account/dashboard",
+      "IsDefault": true,
+      "IsSelected": true,
+      "Level": 2,
+      "Name": "dashboard",
+      "ParentName": "ACCOUNT",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": false,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Dashboard",
+      "Title": "Dashboard"
+    },
+    {
+      "id": "manage-information",
+      "Href": "/manage-account/manage-information",
+      "IsDefault": false,
+      "IsSelected": false,
+      "Level": 2,
+      "Name": "manage-information",
+      "ParentName": "ACCOUNT",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": false,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Manage Information",
+      "Title": "Manage Information"
+    },
+    {
+      "id": "transaction-history",
+      "Href": "/manage-account/transaction-history",
+      "IsDefault": false,
+      "IsSelected": false,
+      "Level": 2,
+      "Name": "transaction-history",
+      "ParentName": "ACCOUNT",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": false,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Transaction History",
+      "Title": "Transaction History"
+    }
+  ]
+}

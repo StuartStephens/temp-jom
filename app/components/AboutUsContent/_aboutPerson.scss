@@ -1,0 +1,59 @@
+.about-person {
+  // margin-top: 3rem;
+  p {
+    font-size: 1.2rem;
+    @include media-breakpoint-down(md) {
+      font-size: 1rem;
+    }
+  }
+  h2 {
+    // font-size: 2.875rem;
+    margin-top: 0.125rem;
+    margin-bottom: 1.25rem;
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
+  }
+  h3,
+  .h3 {
+    margin-top: 2.1875rem;
+    margin-bottom: 1.25rem;
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
+    font-size: $h3-font-size;
+    @include media-breakpoint-down(sm) {
+      font-size: rfs-fluid-value($h3-font-size) !important;
+    }
+  }
+  .quote {
+    font-size: 1.25rem;
+    font-weight: $font-weight-light;
+    margin-bottom: 1.25rem;
+    border-left: 4px solid $primary;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    font-style: italic;
+
+    p {
+      font-family: $font-family-minion;
+      font-style: italic;
+      font-size: 1.5rem;
+      @include media-breakpoint-down(md) {
+        font-size: 1.25rem;
+      }
+    }
+    .signature {
+      padding-top: 0.5rem;
+    }
+    .signature span {
+      font-family: $font-family-sans-serif;
+      font-style: normal;
+      text-transform: uppercase;
+    }
+    .full-width-image {
+      margin-top: 0.875rem;
+      margin-bottom: 2rem;
+    }
+  }
+}

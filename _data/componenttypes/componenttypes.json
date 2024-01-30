@@ -1,0 +1,4 @@
+[
+  { "id": "Component A", "Name": "Component A", "Params": [{ "Foo": "Bar" }] },
+  { "id": "Component B", "Name": "Component B", "Params": [{ "Foo": "Bar" }] }
+]

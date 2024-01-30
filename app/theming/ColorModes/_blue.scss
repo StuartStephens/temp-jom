@@ -1,0 +1,42 @@
+[data-bs-theme="blue"] {
+  /*VARIABLES*/
+  $primary: #007ec1;
+  $secondary: #005484;
+  $tertiary: #f3f3f3;
+  $emphasis-color: white;
+  $linkColor: #0089c8;
+
+  /*REACT-BOOSTRAP TEMPLATE OVERRIDES*/
+  // You can overide any --bs-xxx styles here which will be used in overrides.css , which is the common css template for all themes
+  /*COMMON STYLES*/
+  --bs-primary-rgb: #{to-rgb($primary)};
+  --bs-secondary-rgb: #{to-rgb($secondary)};
+  --bs-tertiary-rgb: #{to-rgb($tertiary)};
+  //--bs-linkColor-rgb: #{to-rgb($linkColor)};
+  --bs-emphasis-color: $emphasis-color;
+  --bs-emphasis-color-rgb: #{to-rgb($emphasis-color)};
+
+  --bs-nav-link-font-size: 1.2rem;
+
+  /*MAIN BODY STYLES*/
+  //the theme gets applied at the main tag, rather than at the body tag, so we need to port these down to the main tag (see overrides.scss)
+  // --bs-body-font-family: "Brush Script MT", cursive;
+  // --bs-body-bg: cyan;
+  // --bs-body-color: var(--bs-red);
+  // --bs-body-font-weight: 900;
+  // --bs-body-line-height: 3rem;
+  // --bs-body-text-align: center;
+  // --bs-body-bg: var(--bs-light-gray);
+  // --bs-tertiary-bg: yellow;
+  // --bs-border-color: violet;
+
+  /*CONTROL-SPECIFIC*/
+
+  $accountBannerUrl: "https://int.joelosteen.com/contentassets/21f264054ee240a7a007df0f23d95b69/largedisplay.png";
+
+  /*OTHER STYLES*/
+  //if you need to do something that will be specific to this theme, you can add it here
+
+  /*IMPORT THE OVERRIDES TEMPLATE SO THAT THE SETTINGS WILL BE APPLIED*/
+  @import "./overrides";
+}

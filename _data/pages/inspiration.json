@@ -1,0 +1,408 @@
+[
+  {
+    "id": "inspiration",
+    "Name": "inspiration",
+    "Title": "Inspiration",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/inspiration/jom_inspiration-jpg/largedisplay.jpg"
+      },
+      "Heading": "Inspiration."
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-inspiration",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "articles",
+    "Name": "articles",
+    "Title": "Articles",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/inspiration/jom_inspiration-jpg/largedisplay.jpg"
+      },
+      "Heading": "Inspiration."
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-inspiration",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": null,
+          "Heading2": null,
+          "Speaker": null,
+          "BodyCopy": {
+            "Data": "Get ready to experience God’s favor in a new way with these inspiring articles. Filled with insights and encouragement from Joel, Victoria, and more, you will be ready to receive God’s unending favor in your life. "
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "blogs",
+    "Name": "blogs",
+    "Title": "Blogs",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/inspiration/jom_inspiration-jpg/largedisplay.jpg"
+      },
+      "Heading": "Inspiration."
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-inspiration",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": null,
+          "Heading2": null,
+          "Speaker": null,
+          "BodyCopy": {
+            "Data": "God has created you to be a victor, not a victim. Jump-start your day by celebrating the very best that God has for you! These daily inspirations will help you grow in your relationship with the Lord and equip you to be everything God intends you to be."
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "this-month",
+    "Name": "this-month",
+    "Title": "This Month",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/inspiration/jom_inspiration-jpg/largedisplay.jpg"
+      },
+      "Heading": "Inspiration."
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-inspiration",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "ACOCarouselAdBlock",
+        "ContentLinkExpanded": {
+          "id": "FEATURED1",
+          "ContentType": "ACO",
+          "Variant": "FULLWIDTH",
+          "BackgroundImage": {
+            "Url": "https://www.joelosteen.com//globalassets/Images/Jom/AllChannelOffers/2024-01-Todays-Word-Devotional-Planner/hero-banner-overlay.jpg",
+            "Title": "Devotional Calandar"
+          },
+          "IsDarkBackground": true,
+          "Author": {
+            "FirstName": "Joel",
+            "LastName": "Olsteen"
+          },
+          "BodyContent": {
+            "Data": "Daily promises from God's Word that will help build your faith every single day of the new year!"
+          },
+          "SummaryContent": {
+            "Data": null
+          },
+          "IsFeatured": true,
+          "PublishedDate": "2-23-23",
+          "Title": "2024 TODAY'S WORD DEVOTIONAL CALENDAR",
+          "ContentImageUrl": {
+            "Url": "https://joelosteen.com/globalassets/images/jom/allchanneloffers/2024-01-todays-word-devotional-planner/todays-word-2024.png",
+            "Title": "Think This and Not and That"
+          },
+          "Links": [
+            {
+              "ContentLink": {
+                "Expanded": {
+                  "Name": "Request this Resource Now",
+                  "Link": "#"
+                }
+              },
+              "Href": "#",
+              "Title": "Request this Resource Now"
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "PastMessagesBlock",
+        "ContentLinkExpanded": {
+          "displayMethod": "SIMPLE",
+          "filterProps": { "recordCount": 3 }
+        }
+      },
+
+      {
+        "ContentType": "PastBlogsBlock",
+        "ContentLinkExpanded": {
+          "displayMethod": "SIMPLE",
+          "filterProps": { "recordCount": 3 }
+        }
+      },
+      {
+        "ContentType": "PastDevotionalsBlock",
+        "ContentLinkExpanded": {
+          "displayMethod": "SIMPLE",
+          "filterProps": { "recordCount": 3 }
+        }
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "todays-word",
+    "Name": "todays-word",
+    "Title": "Todays Word",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/inspiration/jom_inspiration-jpg/largedisplay.jpg"
+      },
+      "Heading": "Inspiration."
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-inspiration",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": null,
+          "Heading2": "Energize Your life!",
+          "Speaker": "Joel Osteen",
+          "BodyCopy": {
+            "Data": "God has created you to be a victor, not a victim. Jump-start your day by celebrating the very best that God has for you! These daily inspirations will help you grow in your relationship with the Lord and equip you to be everything God intends you to be."
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      },
+
+      {
+        "ContentType": "InspirationalMessageBlock",
+        "ContentLinkExpanded": {
+          "Name": "Today's Word",
+          "ContentType": "TodaysWord",
+          "LargeImage": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/home/todaysword-bg-png/largedisplay.png",
+            "Title": "Today's Word"
+          },
+          "FirstName": "First Name",
+          "FirstNameRequired": true,
+          "EmailAddressField": "Email Address",
+          "EmailAddressRequired": true,
+          "FailureMessage": "Something went wrong with the registration.  Please try again later",
+          "LastName": "Last Name",
+          "LastNameRequired": true,
+          "MobileImage": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/home/todaysword-bg-png/largedisplay.png",
+            "Title": "Today's Word"
+          },
+          "TabletImage": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/home/todaysword-bg-png/largedisplay.png",
+            "Title": "Today's Word"
+          },
+          "Status": "TODO_WHAT GOES HERE",
+          "StartPublish": "DEC 30, 2023",
+          "StopPublish": "Jan 10, 2024",
+          "SuccessMessage": "You have successfully registered",
+          "Description": {
+            "Data": "Have you signed up yet? Get your inspirational message in your inbox every day. "
+          },
+          "BackgroundImage": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/home/todaysword-bg-png/largedisplay.png",
+            "Title": "Today's Word"
+          },
+          "DailyDevotionalPage": {
+            "ContentType": "DailyDevotionalPage",
+            "Title": "What Really Matters",
+            "Prayer": {
+              "Data": "Father, thank You for this reminder to take time for what really matters. Thank You for my family, my friends, and the loved ones You’ve brought into my life. Help me to love them and care for them in a way that reflects Your love for them and for me. In Jesus’ Name, Amen."
+            },
+            "Date": "DEC 31, 2023",
+            "DevotionalDescription": {
+              "Data": "We all have times in life when we're at a disadvantage. "
+            },
+            "Content": {
+              "Data": "<p>We have no guarantee that we’ll be here tomorrow. Our life is fragile. What kind of changes would we make if we knew we only had a year to live? We would be kinder, more compassionate, more understanding. We wouldn’t let things upset us so easily. We would slow down and take time for what’s really important—our family, our friends, our loved ones. We would go on that special date that we promised our little girl. We wouldn’t be too busy to be at our son’s ballgames. We wouldn’t rush out of the house without kissing our spouse. We would take five minutes and write that heartfelt letter that we’ve been meaning to. We would take a couple of days and go see our family. <p></p>Every day you should tell the people in your life how much you love them. Every day take time to hug your children, look them in the eyes and tell them how glad you are that they’re in your life. Take time for the people in your life. Why don’t you make those changes today?</p> "
+            },
+            "Name": "string",
+            "Scripture": {
+              "Data": "For what is your life? It is even a vapor that appears for a little time and then vanishes away. "
+            },
+            "ScriptureSource": "James 4:14, NKJV"
+          }
+        }
+      },
+      { "ContentType": "ArchiveAccessBlock", "ContentLinkExpanded": "SHOW" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "wallpapers",
+    "Name": "wallpapers",
+    "Title": "Wallpapers",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/inspiration/jom_inspiration-jpg/largedisplay.jpg"
+      },
+      "Heading": "Inspiration."
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-inspiration",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+.highlighted-navigation-block {
+  &.style-1 {
+    background-color: #ccf8ff;
+  }
+  &.style-2 {
+    background-color: $white;
+  }
+  .highlighted-nav-item {
+    border: 0px solid black;
+    img {
+      height: 4.5rem;
+    }
+    .highlighted-nav-title-wrapper {
+      text-align: center;
+    }
+  }
+
+  // a {
+  //   font-family: $btn-font-family;
+  // }
+  .highlighted-nav-image-wrapper {
+    color: $dark;
+  }
+}

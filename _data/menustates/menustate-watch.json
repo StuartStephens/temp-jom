@@ -1,0 +1,55 @@
+{
+  "id": "state-watch",
+  "name": "state-watch",
+  "level": 1,
+  "menuItems": [
+    {
+      "id": "messages",
+      "Href": "/watch/messages",
+      "IsDefault": true,
+      "IsSelected": true,
+      "Level": 2,
+      "Name": "messages",
+      "ParentName": "watch",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": true,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Messages",
+      "Title": "Messages"
+    },
+    {
+      "id": "broadcasts",
+      "Href": "/watch/broadcasts",
+      "IsDefault": false,
+      "IsSelected": false,
+      "Level": 2,
+      "Name": "broadcasts",
+      "ParentName": "watch",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": true,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Broadcasts",
+      "Title": "Broadcasts"
+    },
+    {
+      "id": "podcasts",
+      "Href": "/watch/podcasts",
+      "IsDefault": false,
+      "IsSelected": false,
+      "Level": 2,
+      "Name": "podcasts",
+      "ParentName": "watch",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": true,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Podcasts",
+      "Title": "Podcasts"
+    }
+  ]
+}

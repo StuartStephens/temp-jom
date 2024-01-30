@@ -1,0 +1,41 @@
+.inspirational-message {
+  .inspirational-message-contents {
+    .devotional-image {
+      height: 227.5px;
+      padding-right: 6rem;
+      @include media-breakpoint-up(md) {
+        height: 701px;
+      }
+    }
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: $headings-font-weight;
+      font-size: 1.625rem;
+      text-align: left;
+      @include media-breakpoint-up(md) {
+        font-size: 1.625rem;
+        text-align: left;
+      }
+    }
+    .date {
+      font-family: $font-family-gothic;
+      font-weight: 500;
+      font-size: larger;
+    }
+    .social-share {
+      font-size: 1.625rem;
+    }
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: $headings-font-weight;
+      font-size: 1.625rem;
+      text-align: left;
+      @include media-breakpoint-up(md) {
+        font-size: 1.625rem;
+        text-align: left;
+      }
+    }
+  }
+}

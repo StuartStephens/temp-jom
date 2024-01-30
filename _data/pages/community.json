@@ -1,0 +1,272 @@
+[
+  {
+    "id": "community",
+    "Name": "community",
+    "Title": "Community",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://www.joelosteen.com/globalassets/images/jom/community/hero/community-hero-hires-png/large_display.png"
+      },
+      "Heading": "Community"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-community",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "prayer-wall",
+    "Name": "prayer-wall",
+    "Title": "Prayer Wall",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://www.joelosteen.com/globalassets/images/jom/community/hero/community-hero-hires-png/large_display.png"
+      },
+      "Heading": "Community"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-community",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "/community",
+              "Title": "Communitty",
+              "Target": "_SELF",
+              "Text": "Community",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": "We Believe in the Power of Prayer",
+          "Heading2": null,
+          "Speaker": null,
+          "BodyCopy": {
+            "Data": "The Bible says the prayer of a righteous person is powerful and effective, yet something extraordinary happens when two or more agree together in prayer. In Matt. 18:19, Jesus said, “If any two of you agree touching any matter on this earth, it shall be done.” Post your prayer request below and believe that God is going to move mightily in your life as others from around the world pray in agreement with your request! You can also contact one of our telephone prayer partners toll-free at 1-888-567-5635."
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      },
+      {
+        "ContentType": "PrayerBlock",
+        "ContentLinkExpanded": "SHOW IT"
+      },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "shouts-of-praise",
+    "Name": "shouts-of-praise",
+    "Title": "Shouts of Praise",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://www.joelosteen.com/globalassets/images/jom/community/hero/community-hero-hires-png/large_display.png"
+      },
+      "Heading": "Community"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-community",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": "Tell the World of Your Blessing!",
+          "Heading2": null,
+          "Speaker": null,
+          "BodyCopy": {
+            "Data": "Have your prayers been answered, or has God done something powerful in your life? Big or small, His work in you and in your situation can be much-neeeded encouragement to those remaining faithful for their answered prayer. Post your story below, and share your blessing with others in need."
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      },
+      {
+        "ContentType": "ShoutsOfPraiseBlock",
+        "ContentLinkExpanded": "SHOW IT"
+      },
+
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "share-your-story",
+    "Name": "share-your-story",
+    "Title": "Share Your Story",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://www.joelosteen.com/globalassets/images/jom/community/hero/community-hero-hires-png/large_display.png"
+      },
+      "Heading": "Community"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-community",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "/community",
+              "Title": "Communitty",
+              "Target": "_SELF",
+              "Text": "Community",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": "Have a Story of Victory to Share?",
+          "Heading2": null,
+          "Speaker": null,
+          "BodyCopy": {
+            "Data": "One of the greatest gifts one can give is sharing our faith with others while expressing gratitude to God. We would love to hear what incredible things God has done for you and the many ways He has changed your life! Your story will be a blessing for many who need inspiration and encouragement."
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      },
+      {
+        "ContentType": "ShareYourStoryFormBlock",
+        "ContentLinkExpanded": "SHOW IT"
+      },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "find-a-church",
+    "Name": "find-a-church",
+    "Title": "Find a Church",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://www.joelosteen.com/globalassets/images/jom/community/hero/community-hero-hires-png/large_display.png"
+      },
+      "Heading": "Community"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-community",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "/community",
+              "Title": "Communitty",
+              "Target": "_SELF",
+              "Text": "Community",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": "Find a Church in Your City",
+          "Heading2": null,
+          "Speaker": null,
+          "BodyCopy": {
+            "Data": "<p>Pastor Joel and Victoria would like to invite you to attend a good, Bible-based church in your area. As a Pastor himself, Joel knows how important it is for every believer to have a healthy church home where they can connect with other believers and grow in their faith.</p><p>Each church listed has been highly recommended to us by ministry partners of our organization. Although their style and doctrinal emphasis naturally may vary somewhat from Joel Osteen and Lakewood Church, we sincerely believe that the men and women who pastor these churches are gifted, talented and dedicated to helping you reach your highest potential.</p>"
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  }
+]

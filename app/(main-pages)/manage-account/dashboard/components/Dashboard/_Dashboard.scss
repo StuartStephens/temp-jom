@@ -1,0 +1,11 @@
+.dashboard-layout {
+  .dashboard-layout-heading {
+    font-size: 2.125rem;
+    & h2 {
+      font-size: 2.125rem;
+      display: inline-block;
+      margin-bottom: 0;
+      margin-inline-start: 1rem;
+    }
+  }
+}

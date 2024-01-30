@@ -1,0 +1,269 @@
+[
+  {
+    "id": "home-page",
+    "Name": "home-page",
+    "Title": "Home Page",
+    "ContentType": "Home",
+    "BannerArea": {
+      "BackgroundImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/home/jom-web-3840x1700px-mobile_hero-hr/desktop.jpg"
+      },
+      "LargeImage": "",
+      "TabletImage": "",
+      "MobileImage": "",
+      "VideoLink": {
+        "Url": "https://storage.sardius.media/1088c54907d9370/archives/FADDF766856A9CECE31681321B5A0E92_1088c54907d9370/files/JoelOsteencom_Landing_Page_loop.mp4"
+      },
+      "LineTwo": "Reach your dreams.",
+      "LineThree": "Become all God created you to be.",
+      "Heading": "Live inspired.",
+      "Links": [
+        {
+          "ContentLink": {
+            "Expanded": {
+              "Name": "featured-this-month",
+              "Link": "/aco"
+            }
+          },
+          "Href": "/aco",
+          "Title": "Featured This Month"
+        },
+        {
+          "ContentLink": {
+            "Expanded": {
+              "Name": "todays-word",
+              "Link": "/inspiration/todays-word"
+            }
+          },
+          "Href": "/inspiration/todays-word",
+          "Title": "Daily Inspiration"
+        }
+      ],
+      "OverLay": false
+    },
+    "MainContent": [
+      { "ContentType": "InPageNavigationBlock" },
+      {
+        "ContentType": "ACOCarouselAdBlock",
+        "ContentLinkExpanded": {
+          "id": "FEATURED1",
+          "ContentType": "ACO",
+          "BackgroundImage": null,
+
+          "Author": {
+            "FirstName": "Joel",
+            "LastName": "Olsteen"
+          },
+          "BodyContent": {
+            "Data": "We all have times in life when we're at a disadvantage. We don't see how we can accomplish our dream, the medical report is not   good, or a child is off course. We’ve done all we can in our own  power, but nothing has changed. We’re dealing with the anxiety,   and it’s tempting to get discouraged and settle where we are. But   there is a supernatural flow that you can tap into. There is a  flow of healing that will turn the medical report around. There is   a flow of favor that will open doors and bring the right people.   There is a flow of freedom that will break the addiction. This   flow is within reach, but here’s the key: It has to be activated   by expecting God’s favor, by declaring His promises, by believing   He’s working when you don’t see any sign of it. "
+          },
+          "SummaryContent": {
+            "Data": "We all have times in life when we're at a disadvantage. We don't see how we can accomplish our dream, the medical report is not   good, or a child is off course. We’ve done all we can in our own  power, but nothing has changed. We’re dealing with the anxiety,   and it’s tempting to get discouraged and settle where we are. But   there is a supernatural flow that you can tap into. There is a  flow of healing that will turn the medical report around. There is   a flow of favor that will open doors and bring the right people.   There is a flow of freedom that will break the addiction. This   flow is within reach, but here’s the key: It has to be activated   by expecting God’s favor, by declaring His promises, by believing   He’s working when you don’t see any sign of it. "
+          },
+          "IsFeatured": true,
+          "PublishedDate": "2-23-23",
+          "Title": "A Supernatural Flow",
+          "ContentImageUrl": {
+            "Url": "https://int.joelosteen.com/globalassets/images/jom/allchanneloffers/2023-08-think-this-not-that/ttnt-collection.png",
+            "Title": "Think This and Not and That"
+          },
+          "Links": [
+            {
+              "ContentLink": {
+                "Expanded": {
+                  "Name": "Order Now",
+                  "Link": "#"
+                }
+              },
+              "Href": "#",
+              "Title": "Order Now"
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "LastMessagesBlock",
+        "ContentLinkExpanded": "DUMMY DATA"
+      },
+      {
+        "ContentType": "TodaysWordFormBlock",
+        "ContentLinkExpanded": {
+          "Name": "Today's Word",
+          "ContentType": "TodaysWord",
+          "LargeImage": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/home/todaysword-bg-png/largedisplay.png",
+            "Title": "Today's Word"
+          },
+          "FirstName": "First Name",
+          "FirstNameRequired": true,
+          "EmailAddressField": "Email Address",
+          "EmailAddressRequired": true,
+          "FailureMessage": "Something went wrong with the registration.  Please try again later",
+          "LastName": "Last Name",
+          "LastNameRequired": true,
+          "MobileImage": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/home/todaysword-bg-png/largedisplay.png",
+            "Title": "Today's Word"
+          },
+          "TabletImage": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/home/todaysword-bg-png/largedisplay.png",
+            "Title": "Today's Word"
+          },
+          "Status": "TODO_WHAT GOES HERE",
+          "StartPublish": "DEC 30, 2023",
+          "StopPublish": "Jan 10, 2024",
+          "SuccessMessage": "You have successfully registered",
+          "Description": {
+            "Data": "Have you signed up yet? Get your inspirational message in your inbox every day. "
+          },
+          "BackgroundImage": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/home/todaysword-bg-png/largedisplay.png",
+            "Title": "Today's Word"
+          },
+          "DailyDevotionalPage": {
+            "ContentType": "DailyDevotionalPage",
+            "Title": "What Really Matters",
+            "Prayer": {
+              "Data": "Father, thank You for this reminder to take time for what really matters. Thank You for my family, my friends, and the loved ones You’ve brought into my life. Help me to love them and care for them in a way that reflects Your love for them and for me. In Jesus’ Name, Amen."
+            },
+            "Date": "DEC 31, 2023",
+            "DevotionalDescription": {
+              "Data": "We all have times in life when we're at a disadvantage. "
+            },
+            "Content": {
+              "Data": "<p>We have no guarantee that we’ll be here tomorrow. Our life is fragile. What kind of changes would we make if we knew we only had a year to live? We would be kinder, more compassionate, more understanding. We wouldn’t let things upset us so easily. We would slow down and take time for what’s really important—our family, our friends, our loved ones. We would go on that special date that we promised our little girl. We wouldn’t be too busy to be at our son’s ballgames. We wouldn’t rush out of the house without kissing our spouse. We would take five minutes and write that heartfelt letter that we’ve been meaning to. We would take a couple of days and go see our family. <p></p>Every day you should tell the people in your life how much you love them. Every day take time to hug your children, look them in the eyes and tell them how glad you are that they’re in your life. Take time for the people in your life. Why don’t you make those changes today?</p> "
+            },
+            "Name": "string",
+            "Scripture": {
+              "Data": "For what is your life? It is even a vapor that appears for a little time and then vanishes away. "
+            },
+            "ScriptureSource": "James 4:14, NKJV"
+          }
+        }
+      },
+
+      {
+        "ContentType": "FeaturedContentCarouselBlock",
+        "ContentLinkExpanded": {
+          "CarouselAdBlocks": [
+            {
+              "id": "FEATURED1",
+              "ContentType": "ACO",
+              "Author": {
+                "FirstName": "Joel",
+                "LastName": "Olsteen"
+              },
+              "BodyContent": {
+                "Data": "We all have times in life when we're at a disadvantage. We don't see how we can accomplish our dream, the medical report is not   good, or a child is off course. We’ve done all we can in our own  power, but nothing has changed. We’re dealing with the anxiety,   and it’s tempting to get discouraged and settle where we are. But   there is a supernatural flow that you can tap into. There is a  flow of healing that will turn the medical report around. There is   a flow of favor that will open doors and bring the right people.   There is a flow of freedom that will break the addiction. This   flow is within reach, but here’s the key: It has to be activated   by expecting God’s favor, by declaring His promises, by believing   He’s working when you don’t see any sign of it. "
+              },
+              "SummaryContent": {
+                "Data": "We all have times in life when we're at a disadvantage. We don't see how we can accomplish our dream, the medical report is not   good, or a child is off course. We’ve done all we can in our own  power, but nothing has changed. We’re dealing with the anxiety,   and it’s tempting to get discouraged and settle where we are. But   there is a supernatural flow that you can tap into. There is a  flow of healing that will turn the medical report around. There is   a flow of favor that will open doors and bring the right people.   There is a flow of freedom that will break the addiction. This   flow is within reach, but here’s the key: It has to be activated   by expecting God’s favor, by declaring His promises, by believing   He’s working when you don’t see any sign of it. "
+              },
+              "IsFeatured": true,
+              "PublishedDate": "2-23-23",
+              "Title": "A Supernatural Flow",
+              "ContentImageUrl": {
+                "Url": "https://int.joelosteen.com/globalassets/images/jom/allchanneloffers/2023-08-think-this-not-that/ttnt-collection.png",
+                "Title": "Think This and Not and That"
+              },
+              "Links": [
+                {
+                  "ContentLink": {
+                    "Expanded": {
+                      "Name": "Request Now",
+                      "Link": "#"
+                    }
+                  },
+                  "Href": "#",
+                  "Title": "Request Now"
+                }
+              ]
+            },
+            {
+              "id": "FEATURED2",
+              "ContentType": "Product",
+              "Author": {
+                "FirstName": "Victoria",
+                "LastName": "Olsteen"
+              },
+              "BodyContent": {
+                "Data": "This inspiring book is filled with personal stories, faith-building Scriptures, and biblical examples of God’s goodness that will encourage you to believe for more. God can use our setbacks as a setup for something greater!"
+              },
+              "SummaryContent": {
+                "Data": "This inspiring book is filled with personal stories, faith-building Scriptures, and biblical examples of God’s goodness that will encourage you to believe for more. God can use our setbacks as a setup for something greater!"
+              },
+              "IsFeatured": true,
+              "PublishedDate": "2-23-23",
+              "Title": "Your Greater Is Coming",
+              "ContentImageUrl": {
+                "Url": "https://int.joelosteen.com/globalassets/images/jom/landing-pages/greater-is-coming/book_right-png.png",
+                "Title": "Your Greater Is Coming"
+              },
+              "Links": [
+                {
+                  "ContentLink": {
+                    "Expanded": {
+                      "Name": "Request Now",
+                      "Link": "#"
+                    }
+                  },
+                  "Href": "#",
+                  "Title": "Request Now"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "FeaturedBlogsBlock",
+        "ContentLinkExpanded": "DUMMY DATA"
+      },
+      { "ContentType": "CommunityBlock", "ContentLinkExpanded": "DUMMY DATA" },
+      { "ContentType": "RichTextRowBlock" },
+      {
+        "ContentType": "HighlightedNavigationBlock",
+        "ContentLinkExpanded": {
+          "Type": "style-2",
+          "LeftItem": {
+            "Heading": "Find Past Messages",
+            "Icon": {
+              "Url": "https://int.joelosteen.com/contentassets/c10d7af1dba2404cba128cac3d4ea01b/messages_icon.png",
+              "Title": "Image Title"
+            },
+            "Link": {
+              "Href": "#Messages",
+              "Title": "View Messages"
+            }
+          },
+          "CenterItem": {
+            "Heading": "Find a Church",
+            "Icon": {
+              "Url": "https://int.joelosteen.com/contentassets/c10d7af1dba2404cba128cac3d4ea01b/messages_icon.png",
+              "Title": "Image Title"
+            },
+            "Link": {
+              "Href": "#Messages",
+              "Title": "Find a Church"
+            }
+          },
+          "RightItem": {
+            "Heading": "Check Out The Store",
+            "Icon": {
+              "Url": "https://int.joelosteen.com/contentassets/c10d7af1dba2404cba128cac3d4ea01b/messages_icon.png",
+              "Title": "Image Title"
+            },
+            "Link": {
+              "Href": "#Messages",
+              "Title": "View Store"
+            }
+          }
+        }
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" }
+    ]
+  }
+]

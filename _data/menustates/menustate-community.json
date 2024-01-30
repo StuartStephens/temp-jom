@@ -1,0 +1,71 @@
+{
+  "id": "state-community",
+  "name": "state-community",
+  "level": 1,
+  "menuItems": [
+    {
+      "id": "prayer-wall",
+      "Href": "/community/prayer-wall",
+      "IsDefault": true,
+      "IsSelected": true,
+      "Level": 2,
+      "Name": "prayer-wall",
+      "ParentName": "community",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": true,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Prayer Wall",
+      "Title": "Prayer Wall"
+    },
+    {
+      "id": "shouts-of-praise",
+      "Href": "/community/shouts-of-praise",
+      "IsDefault": false,
+      "IsSelected": false,
+      "Level": 2,
+      "Name": "shouts-of-praise",
+      "ParentName": "community",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": true,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Shouts of Praise",
+      "Title": "Shouts of Praise"
+    },
+    {
+      "id": "share-your-story",
+      "Href": "/community/share-your-story",
+      "IsDefault": false,
+      "IsSelected": false,
+      "Level": 2,
+      "Name": "share-your-story",
+      "ParentName": "community",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": true,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Share Your Story",
+      "Title": "Share Your Story"
+    },
+    {
+      "id": "find-a-church",
+      "Href": "/community/find-a-church",
+      "IsDefault": false,
+      "IsSelected": false,
+      "Level": 2,
+      "Name": "find-a-church",
+      "ParentName": "community",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": true,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Find a Church",
+      "Title": "Find a Church"
+    }
+  ]
+}

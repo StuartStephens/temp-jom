@@ -1,0 +1,5 @@
+{
+  "/jomapi/*": "/$1",
+  "/store/book": "/book",
+  "/store/music": "/music"
+}

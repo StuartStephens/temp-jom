@@ -1,0 +1,308 @@
+@font-face {
+  font-family: "jom-new";
+  src: url(/fonts/jom-new.eot);
+  src: url(/fonts/jom-new.eot#iefix) format("embedded-opentype"),
+    url(/fonts/jom-new.ttf) format("truetype"),
+    url(/fonts/jom-new.woff) format("woff"),
+    url(/fonts/jom-new.svg#jom-new) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "museo-sans";
+  src: url(/fonts/museosans_500-webfont.woff2) format("woff2"),
+    url(/fonts/museosans_500-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gothic";
+  src: url(/fonts/leaguegothic-regular-variablefont_wdth-webfont.woff2)
+      format("woff2"),
+    url(/fonts/leaguegothic-regular-variablefont_wdth-webfont.woff)
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "minion-italic";
+  src: url(/fonts/alegreya-italic-variablefont_wght-webfont.woff2)
+      format("woff2"),
+    url(/fonts/alegreya-italic-variablefont_wght-webfont.woff)
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "jom-new" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  /* speak: none; */
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "jom-new" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  /* speak: none; */
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-CloseInfo:before {
+  content: "\e900";
+  color: #525252;
+}
+
+.icon-flag:before {
+  content: "\e901";
+  color: #606060;
+}
+
+.icon-Icon-play-grey:before {
+  content: "\e902";
+  color: #525252;
+}
+
+.icon-Info:before {
+  content: "\e903";
+  color: #525252;
+}
+
+.icon-bookmark_blue:before {
+  content: "\e929";
+  color: #005382;
+}
+
+.icon-bookmark_gray:before {
+  content: "\e92a";
+  color: #525252;
+}
+
+.icon-download_gray:before {
+  content: "\e92b";
+  color: #525252;
+}
+
+.icon-trash_icon:before {
+  content: "\e92c";
+  color: #525252;
+}
+
+.icon-apple-tv:before {
+  content: "\e904";
+  color: #fff;
+}
+
+.icon-arrow-left:before {
+  content: "\e905";
+  color: #615c5c;
+}
+
+.icon-arrow-right:before {
+  content: "\e906";
+  color: #615c5c;
+}
+
+.icon-button-play:before {
+  content: "\e907";
+  color: #fff;
+}
+
+.icon-cart-white:before {
+  content: "\e908";
+  color: #fff;
+}
+
+.icon-checkmark:before {
+  content: "\e909";
+  color: #fff;
+}
+
+.icon-close-red:before {
+  content: "\e90a";
+  color: #fecdd3;
+}
+
+.icon-close:before {
+  content: "\e90b";
+}
+
+.icon-facebook:before {
+  content: "\e90c";
+  color: #fffffe;
+}
+
+.icon-get-inspired:before {
+  content: "\e90d";
+  color: #9c9c9c;
+}
+
+.icon-header-events:before {
+  content: "\e90e";
+  color: #fff;
+}
+
+.icon-header-my-library:before {
+  content: "\e90f";
+  color: #fff;
+}
+
+.icon-header-our-ministry:before {
+  content: "\e910";
+  color: #fff;
+}
+
+.icon-header-store:before {
+  content: "\e911";
+  color: #fff;
+}
+
+.icon-header-watch:before {
+  content: "\e912";
+  color: #fff;
+}
+
+.icon-icon-play-white-svg:before {
+  content: "\e913";
+  color: #fff;
+}
+
+.icon-instagram:before {
+  content: "\e914";
+  color: #fff;
+}
+
+.icon-logo:before {
+  content: "\e915";
+  color: #fff;
+}
+
+.icon-menu-community:before {
+  content: "\e916";
+  color: #fff;
+}
+
+.icon-menu-donate:before {
+  content: "\e917";
+  color: #fff;
+}
+
+.icon-menu-events:before {
+  content: "\e918";
+  color: #fff;
+}
+
+.icon-menu-inspiration:before {
+  content: "\e919";
+  color: #fff;
+}
+
+.icon-menu-login:before {
+  content: "\e91a";
+  color: #fff;
+}
+
+.icon-menu-my-library:before {
+  content: "\e91b";
+  color: #fff;
+}
+
+.icon-menu-our-ministry:before {
+  content: "\e91c";
+  color: #fff;
+}
+
+.icon-menu-store:before {
+  content: "\e91d";
+  color: #fff;
+}
+
+.icon-menu-watch:before {
+  content: "\e91e";
+  color: #fff;
+}
+
+.icon-past-messages:before {
+  content: "\e91f";
+  color: #9c9c9c;
+}
+
+.icon-roku:before {
+  content: "\e920";
+  color: #fff;
+}
+
+.icon-search-dark:before {
+  content: "\e921";
+  color: #808080;
+}
+
+.icon-search-white:before {
+  content: "\e922";
+  color: #fff;
+}
+
+.icon-share-fb:before {
+  content: "\e923";
+  color: #777772;
+}
+
+.icon-share-mail:before {
+  content: "\e924";
+  color: #777772;
+}
+
+.icon-share-pinterest:before {
+  content: "\e925";
+  color: #777772;
+}
+
+.icon-share-twitter:before {
+  content: "\e926";
+  color: #777772;
+}
+
+.icon-sirius:before {
+  content: "\e927";
+  color: #fff;
+}
+
+.icon-spotify:before {
+  content: "\e928";
+  color: #fff;
+}
+
+.icon-store:before {
+  content: "\e92d";
+  color: #9c9c9c;
+}
+
+.icon-twitter:before {
+  content: "\e92e";
+  color: #fff;
+}
+
+.icon-you-tube:before {
+  content: "\e92f";
+  color: #fff;
+}
+
+.icon-youtube:before {
+  content: "\e930";
+  color: #fff;
+}

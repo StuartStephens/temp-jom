@@ -1,0 +1,123 @@
+[
+  {
+    "id": "aco-page",
+    "Name": "aco-page",
+    "Title": "ACO",
+    "ContentType": "ACO",
+
+    "MainContent": [
+      { "ContentType": "InPageNavigationBlock" },
+      {
+        "ContentType": "ACOMastheadBlock",
+        "ContentLinkExpanded": {
+          "id": "FEATURED1",
+          "ContentType": "ACOMastheadBlock",
+          "BackgroundImage": {
+            "Url": "https://www.joelosteen.com//globalassets/Images/Jom/AllChannelOffers/2024-01-Todays-Word-Devotional-Planner/hero-banner-overlay.jpg",
+            "Title": "Devotional Calandar"
+          },
+          "IsDarkBackground": true,
+          "Author": {
+            "FirstName": "Joel",
+            "LastName": "Olsteen"
+          },
+          "BodyContent": {
+            "Data": "Daily promises from God's Word that will help build your faith every single day of the new year!"
+          },
+          "SummaryContent": {
+            "Data": null
+          },
+          "IsFeatured": true,
+          "PublishedDate": "2-23-23",
+          "Title": "2024 TODAY'S WORD DEVOTIONAL CALENDAR",
+          "ContentImageUrl": {
+            "Url": "https://joelosteen.com/globalassets/images/jom/allchanneloffers/2024-01-todays-word-devotional-planner/todays-word-2024.png",
+            "Title": "Think This and Not and That"
+          },
+          "Links": [
+            {
+              "ContentLink": {
+                "Expanded": {
+                  "Name": "Request the Resource Now",
+                  "Link": "#"
+                }
+              },
+              "Href": "#",
+              "Title": "Request the Resource Now"
+            },
+            {
+              "ContentLink": {
+                "Expanded": {
+                  "Name": "See the Collection Now",
+                  "Link": "#"
+                }
+              },
+              "Href": "#",
+              "Title": "See the Collection Now"
+            }
+          ]
+        }
+      },
+
+      {
+        "ContentType": "ACO66IntroBlock",
+        "ContentLinkExpanded": {
+          "Heading": null,
+          "Copy": null,
+          "IFrameEmbed": {
+            "Height": 386,
+            "Width": 687,
+            "Src": "https://www.youtube.com/embed/Jx1R8esLWr4",
+            "Title": "2024 Today's Word Devotional Calendar",
+            "AutoPlay": true
+          },
+          "FallbackImage": {
+            "Url": "",
+            "Title": "2024 Today's Word Devotional Calendar"
+          }
+        }
+      },
+      {
+        "ContentType": "ACOOfferBlock",
+        "ContentLinkExpanded": {
+          "Heading": "SCRIPTURE VERSE LED LIGHT",
+          "SubHeading": null,
+          "Copy": {
+            "Data": "Illuminate your home with the warm glow of faith with our Jeremiah 29:11 Scripture Verse LED Light. The clear acrylic design and wooden light-up base make it a stylish and modern addition to any room. Also includes the <em>2024 Today's Word Devotional Calendar.</em> "
+          },
+
+          "Image": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/allchanneloffers/2024-01-todays-word-devotional-planner/jom-0124-aco-home-product.png",
+            "Title": "2024 Today's Word Devotional Calendar"
+          },
+          "Callout": "OUR THANKS FOR YOUR GIFT OF $150 OR MORE",
+          "CTALink": {
+            "ContentLink": "Donate",
+            "Href": "/aco?donate=true",
+            "Title": "Donate"
+          },
+          "ImageOnLeft": false,
+          "ShowContentDivider": false,
+          "IsExclusiveOffer": false
+        }
+      },
+      {
+        "ContentType": "ACOSignatureBlock",
+        "ContentLinkExpanded": {
+          "Heading": "Be Encouraged Today",
+          "Copy": {
+            "Data": "Victoria and I want to take this opportunity to tell you how grateful we are that you connected with our ministry. Our deepest desire is for you to know God personally and to experience Him every moment of every day. Your best days are ahead, and together we can impact this world with the message of God's hope and love."
+          },
+          "SignatureImage": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/allchanneloffers/2022-12-come-home-to-hope/signature-dark-png.png",
+            "Title": "Joel and Victoria Signature"
+          },
+          "Image": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/allchanneloffers/2023-01-todays-word-devotional-calendar/joelvictoria-high-1.png",
+            "Title": "Joel and Victoria Photo"
+          }
+        }
+      }
+    ]
+  }
+]

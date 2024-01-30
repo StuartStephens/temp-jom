@@ -1,0 +1,294 @@
+@import "/fonts/jom-new.css";
+@import "/fonts/jom_fonts.css";
+
+@import "~bootstrap/scss/bootstrap";
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "~bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "~bootstrap/scss/variables";
+
+//OUR CUSTOM THEMING
+@import "./theming/variables";
+@import "~bootstrap/scss/bootstrap";
+
+@import "./theming/ColorModes/blue";
+
+@import "./theming/ColorModes/christmas";
+
+@import "./components/navbar/Menu";
+
+// $body-bg: $backgroundTheme;
+
+//INCLUDE ANY COMMON CSS THAT APPLIES TO COLOR MODES
+@import "./theming/ColorModes/overrides";
+
+@import "./components/GenericPageBanner/genericPageBanner";
+@import "./components/Footer/Footer";
+@import "./components/shared/layouts/layouts";
+@import "./components/FeaturedContentCarousel/FeaturedContentCarouselBlock";
+@import "./components/FeaturedBlog/FeaturedBlogs";
+@import "./components/LastMessages/LastMessages";
+@import "./components/AboutUsContent/aboutPerson";
+@import "./components/TodaysWordForm/TodaysWordForm";
+@import "./components/InspirationalMessage/InspirationalMessage";
+@import "./components/EnhancedTextArea/EnhancedTextArea";
+@import "./components/ContentList/ContentList";
+@import "./components/ContentList/EcommerceItemCard";
+@import "./components/Community/Community";
+@import "./components/WatchPageCountdown/WatchPageCountdown";
+@import "./components/HighlightedNavigation/HighlightedNavigation";
+@import "./components/shared/SocialMediaLinks/SocialMediaLinks";
+@import "./components/FindChurchesContainer/FindChurchesContainer";
+
+@import "./\(main-pages\)/manage-account/dashboard/components/Dashboard/Dashboard";
+// 4. Include any default map overrides here
+// // 5. Include remainder of required parts
+// @import "~bootstrap/scss/maps";
+// @import "~bootstrap/scss/mixins";
+// @import "~bootstrap/scss/root";
+// // 6. Optionally include any other parts as needed
+// @import "~bootstrap/scss/utilities";
+// @import "~bootstrap/scss/reboot";
+// @import "~bootstrap/scss/type";
+// @import "~bootstrap/scss/images";
+// @import "~bootstrap/scss/containers";
+// @import "~bootstrap/scss/grid";
+// @import "~bootstrap/scss/helpers";
+// // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+// @import "~bootstrap/scss/utilities/api";
+// 8. Add additional custom code here
+// @import "~bootstrap/scss/bootstrap";
+@import "../app/components/shared/Banner/banners";
+.spinner-container-full-height {
+  height: 100vh;
+}
+.spinner-container {
+  height: 100%;
+}
+
+.latest-blogs {
+  .additional-row {
+    .additional-row-card {
+      background-color: cyan;
+    }
+    .additional-blog-renderer {
+      color: white;
+      background: unset;
+      border-radius: 2px;
+      -webkit-box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 20px 30px #0000001a;
+      background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(4, 9, 53, 0.74)),
+        to(rgba(4, 9, 53, 0.74))
+      ) !important;
+      background-image: linear-gradient(
+        to bottom,
+        rgba(4, 9, 53, 0.74),
+        rgba(4, 9, 53, 0.74)
+      ) !important;
+      background-blend-mode: darken;
+
+      padding: 20px;
+    }
+    .button-row {
+      width: 100%;
+      @include media-breakpoint-up(md) {
+        width: auto;
+      }
+      .btn {
+        width: 100%;
+        @include media-breakpoint-up(md) {
+          width: auto;
+        }
+      }
+    }
+  }
+  .text-truncate-available {
+    display: inline-block;
+    width: -webkit-fill-available;
+  }
+
+  .copy {
+    font-size: 1rem;
+    @include media-breakpoint-up(lg) {
+      font-size: 1.5rem;
+    }
+    line-height: 1.88;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+  }
+}
+.featured-blog {
+  .date {
+    display: inline;
+    padding-left: 0.5rem;
+    @include media-breakpoint-up(lg) {
+      padding-left: unset;
+      display: block;
+    }
+  }
+  .caption {
+    text-align: center;
+    padding: 2rem;
+    @include media-breakpoint-up(md) {
+      background-color: white;
+    }
+    position: relative;
+
+    .bubble-arrow {
+      @include media-breakpoint-up(md) {
+        width: 0;
+        height: 0;
+        border-right: 30px solid rgba(0, 0, 0, 0);
+        border-top: 30px solid white;
+        border-bottom: 30px solid rgba(0, 0, 0, 0);
+        border-left: 30px solid rgba(0, 0, 0, 0);
+        position: absolute;
+        left: unset;
+        bottom: unset;
+        left: calc(50% - 30px);
+        bottom: -60px;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 0;
+        height: 0;
+        border-right: 30px solid rgba(0, 0, 0, 0);
+        border-top: 30px solid rgba(0, 0, 0, 0);
+        border-bottom: 30px solid rgba(0, 0, 0, 0);
+        border-left: 30px solid white;
+        position: absolute;
+        left: unset;
+        bottom: unset;
+        top: calc(50% - 30px);
+        right: -60px;
+        // -webkit-transform: translate(-30%, -50%);
+        // transform: translate(-30%, -50%);
+      }
+    }
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+  }
+}
+
+.test-carousel {
+  .carousel-caption {
+    top: 0;
+    text-align: left;
+  }
+  .image-wrapper {
+    text-align: center;
+  }
+}
+
+.carousel-caption-renderer {
+  .carousel-caption-layout {
+    display: inline-block;
+    height: 100%;
+    row {
+      height: 100%;
+    }
+  }
+  background-color: transparent;
+  // height: 100%;
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.app-main {
+  background-color: white;
+  height: 1000px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: red;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-Link {
+  text-decoration: solid;
+}
+
+.tertiary-navigation {
+  .nav {
+    text-align: center;
+    font-size: medium;
+    @include media-breakpoint-up(md) {
+      text-align: left;
+      font-size: larger;
+    }
+  }
+}
+
+.youtube-wrapper-16x9 {
+  position: relative;
+  padding-bottom: 56.25%;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+

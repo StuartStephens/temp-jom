@@ -1,0 +1,233 @@
+[
+  {
+    "id": "store",
+    "Name": "store",
+    "Title": "Store",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/our-ministry/jom_ourministry/largedisplay.jpg"
+      },
+      "Heading": "Store"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-store",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "store-featured",
+    "Name": "store-featured",
+    "Title": "Featured",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/our-ministry/jom_ourministry/largedisplay.jpg"
+      },
+      "Heading": "Featured"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-store",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "store-books",
+    "Name": "store-books",
+    "Title": "Books",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/our-ministry/jom_ourministry/largedisplay.jpg"
+      },
+      "Heading": "Store"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-store",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "store-music",
+    "Name": "store-music",
+    "Title": "Books",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/our-ministry/jom_ourministry/largedisplay.jpg"
+      },
+      "Heading": "Music"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-store",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "store-series",
+    "Name": "store-series",
+    "Title": "Series",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/our-ministry/jom_ourministry/largedisplay.jpg"
+      },
+      "Heading": "Series"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-store",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "store-gifts",
+    "Name": "store-gifts",
+    "Title": "Gifts",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/our-ministry/jom_ourministry/largedisplay.jpg"
+      },
+      "Heading": "Gifts"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-store",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "store-checkout",
+    "Name": "store-checkout",
+    "Title": "Checkout",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/our-ministry/jom_ourministry/largedisplay.jpg"
+      },
+      "Heading": "Checkout"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-store",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

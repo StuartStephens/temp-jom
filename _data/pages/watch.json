@@ -1,0 +1,208 @@
+[
+  {
+    "id": "watch",
+    "Name": "watch",
+    "Title": "Watch",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://www.joelosteen.com/globalassets/images/jom/how-to-watch/hero/howtowatch-hero-hires-png/largedisplay.png"
+      },
+      "Heading": "Watch"
+    },
+    "MainContent": [
+      {
+        "ContentType": "WatchPageCountdownBlock",
+        "ContentLinkExpanded": "SHOW IT"
+      },
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-watch",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "messages",
+    "Name": "messages",
+    "Title": "Messages",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://www.joelosteen.com/globalassets/images/jom/how-to-watch/hero/howtowatch-hero-hires-png/largedisplay.png"
+      },
+      "Heading": "Watch"
+    },
+    "MainContent": [
+      {
+        "ContentType": "WatchPageCountdownBlock",
+        "ContentLinkExpanded": "SHOW IT"
+      },
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-watch",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "/watch",
+              "Title": "Communitty",
+              "Target": "_SELF",
+              "Text": "Watch",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "broadcasts",
+    "Name": "broadcasts",
+    "Title": "Broadcasts",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://www.joelosteen.com/globalassets/images/jom/how-to-watch/hero/howtowatch-hero-hires-png/largedisplay.png"
+      },
+      "Heading": "Watch"
+    },
+    "MainContent": [
+      {
+        "ContentType": "WatchPageCountdownBlock",
+        "ContentLinkExpanded": "SHOW IT"
+      },
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-watch",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": "",
+          "Heading2": "",
+          "Speaker": "",
+          "BodyCopy": {
+            "Data": "Joel Osteen Ministries provides the opportunity to find hope and inspiration wherever you are, 24 hours a day, 7 days a week. We know that God is a rewarder of the people who seek after Him, and we believe that in each message, God has something special just for you. Explore the many ways you can watch and listen!"
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "podcasts",
+    "Name": "podcasts",
+    "Title": "Podcasts",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://www.joelosteen.com/globalassets/images/jom/how-to-watch/hero/howtowatch-hero-hires-png/largedisplay.png"
+      },
+      "Heading": "Watch"
+    },
+    "MainContent": [
+      {
+        "ContentType": "WatchPageCountdownBlock",
+        "ContentLinkExpanded": "SHOW IT"
+      },
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-watch",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "/watch",
+              "Title": "Communitty",
+              "Target": "_SELF",
+              "Text": "Watch",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": "",
+          "Heading2": "",
+          "Speaker": "",
+          "BodyCopy": {
+            "Data": "Welcome to the Joel Osteen Daily Podcast. Joel & Victoria Osteen inspire people to reach their dreams, find fresh beginnings and live their best life. Both he and Victoria live in Houston, TX. Listen on these streaming platforms listed below."
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  }
+]

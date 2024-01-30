@@ -1,0 +1,170 @@
+[
+  {
+    "id": "manage-account",
+    "Name": "manage-account",
+    "Title": "Manage Account",
+    "ContentType": "STANDARD",
+    "AccountHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/our-ministry/jom_ourministry/largedisplay.jpg"
+      },
+      "Heading": "My Account"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-manage-account",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "dashboard",
+    "Name": "dashboard",
+    "Title": "Dashboard",
+    "ContentType": "STANDARD",
+    "AccountHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/our-ministry/jom_ourministry/largedisplay.jpg"
+      },
+      "Heading": "My Account"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-manage-account",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "AccountDashboardBlock",
+        "ContentLinkExpanded": "DUMMY DATA"
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "manage-information",
+    "Name": "manage-information",
+    "Title": "Manage Information",
+    "ContentType": "ACCOUNT_MANAGE_INFORMATION",
+    "AccountHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/our-ministry/jom_ourministry/largedisplay.jpg"
+      },
+      "Heading": "My Account"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-manage-account",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "transaction-history",
+    "Name": "transaction-history",
+    "Title": "Transaction History",
+    "ContentType": "STANDARD",
+    "AccountHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/our-ministry/jom_ourministry/largedisplay.jpg"
+      },
+      "Heading": "My Account"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-manage-account",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  }
+]

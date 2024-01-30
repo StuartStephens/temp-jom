@@ -1,0 +1,24 @@
+.community-block {
+  background-color: #ddeaf3;
+  padding: 3rem;
+  .facebook-block {
+    background-color: white;
+  }
+  .button-row {
+    margin-top: 1rem;
+  }
+  .instagram-card img {
+    height: 129px;
+    width: 100%;
+    object-fit: cover;
+    @include media-breakpoint-up(sm) {
+      height: 173px;
+      width: 100%;
+      object-fit: cover;
+    }
+    @include media-breakpoint-up(md) {
+      height: 299px;
+      width: 100%;
+    }
+  }
+}

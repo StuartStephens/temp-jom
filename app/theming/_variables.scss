@@ -1,0 +1,170 @@
+// scss-docs-start theme-color-variables
+// $primary: #007ec1;
+// $secondary: #005484;
+// $info: #7eb8d8;
+// $success: #35a072;
+// $warning: #b3903a;
+// $danger: #f44336;
+// $light: #f3f3f3;
+// $dark: black;
+// $accent: #ef5a50;
+// $jombutton: #007dc2;
+// $transparentdark: transparent;
+// $transparentlight: transparent;
+// $subtle: aliceblue;
+// $backgroundTheme: #d2ac92;
+
+// // scss-docs-start theme-colors-map
+
+// $custom-colors: (
+//   "primary": $primary,
+//   "secondary": $secondary,
+//   "info": $info,
+//   "success": $success,
+//   "warning": $warning,
+//   "danger": $danger,
+//   "light": $light,
+//   "dark": $dark,
+//   "accent": $accent,
+//   "jombutton": $jombutton,
+//   "transparentdark": $transparentdark,
+//   "transparentlight": $transparentlight,
+//   "subtle": $subtle,
+//   "backgroundTheme": $backgroundTheme,
+// );
+
+// // Merge the maps
+// $theme-colors: map-merge($theme-colors, $custom-colors);
+
+// $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+
+// $utilities-text: map-merge(
+//   $utilities-colors,
+//   (
+//     "black": to-rgb($black),
+//     "white": to-rgb($white),
+//     "body": to-rgb($body-color),
+//   )
+// );
+// $utilities-text-colors: map-loop($utilities-text, rgba-css-var, "$key", "text");
+
+// $font-family-base: var(--bs-font-sans-serif);
+
+$font-family-gothic: "alternate-gothic-no-3-d", sans-serif;
+$font-family-minion: "minion-italic", serif;
+$font-family-museo: "museo-sans", Helvetica, Arial, sans-serif;
+
+$font-family-base: $font-family-museo;
+$font-family-code: var(--bs-font-monospace);
+
+$navbar-nav-link-font-family: $font-family-gothic;
+$navbar-nav-link-font-size: 1.25rem;
+$navbar-nav-link-font-weight: 400;
+$navbar-nav-link-text-transform: uppercase;
+$navbar-nav-link-letter-spacing: 0;
+$navbar-nav-link-color: rgba($white, 1);
+$navbar-nav-link-hover-color: rgba($white, 0.7);
+$navbar-toggler-focus-width: 0.1rem;
+$accountBannerUrl: "https://int.joelosteen.com/contentassets/21f264054ee240a7a007df0f23d95b69/largedisplay.png";
+$tertiary: black;
+$linkColor: blue;
+
+// scss-docs-start theme-colors-map
+
+$custom-colors: (
+  "linkColor": $linkColor,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// $jombutton-background: transparent;
+// $jombutton-color: $linkColor;
+// $jombutton-hover-background: transparent;
+// $jombutton-hover-color: black;
+// $jombutton-hover-border: transparent;
+// $jombutton-border: transparent;
+
+// $jombutton-active-background: transparent;
+// $jombutton-active-color: --bs-body-color;
+// $jombutton-active-hover-background: transparent;
+// $jombutton-active-border: transparent;
+
+// $jombutton-disabled-background: transparent;
+// $jombutton-disabled-color: gray;
+// $jombutton-disabled-hover-background: transparent;
+// $jombutton-disabled-border: transparent;
+
+// .btn-jombutton {
+//   @include button-variant(
+//     $jombutton-background,
+//     $jombutton-border,
+//     $jombutton-color,
+//     $jombutton-hover-background,
+//     $jombutton-hover-border,
+//     $jombutton-hover-color,
+//     $jombutton-active-background,
+//     $jombutton-active-border,
+//     $jombutton-active-color,
+//     $jombutton-disabled-background,
+//     $jombutton-disabled-border,
+//     $jombutton-disabled-color
+//   );
+//   text-transform: uppercase;
+//   font-weight: normal;
+//   font-family: $font-family-gothic;
+//   font-size: 1.25rem;
+// }
+// $jombutton-background: transparent;
+// $jombutton-color: blue;
+// $jombutton-hover-background: transparent;
+// $jombutton-hover-color: black;
+// $jombutton-hover-border: transparent;
+// $jombutton-border: transparent;
+
+// $jombutton-active-background: transparent;
+// $jombutton-active-color: black;
+// $jombutton-active-hover-background: transparent;
+// $jombutton-active-border: transparent;
+
+// $jombutton-disabled-background: transparent;
+// $jombutton-disabled-color: gray;
+// $jombutton-disabled-hover-background: transparent;
+// $jombutton-disabled-border: transparent;
+
+// .btn-jombutton {
+//   @include button-variant(
+//     $jombutton-background,
+//     $jombutton-border,
+//     $jombutton-color: color-contrast($jombutton-background),
+//     $jombutton-hover-background:
+//       if(
+//         $jombutton-color == $color-contrast-light,
+//         shade-color($jombutton-background, $btn-hover-bg-shade-amount),
+//         tint-color($jombutton-background, $btn-hover-bg-tint-amount)
+//       ),
+//     $jombutton-hover-border-border:
+//       if(
+//         $jombutton-color == $color-contrast-light,
+//         shade-color($jombutton-border, $btn-hover-border-shade-amount),
+//         tint-color($jombutton-border, $btn-hover-border-tint-amount)
+//       ),
+//     $jombutton-hover-color: color-contrast($jombutton-hover-background),
+//     $jombutton-active-background:
+//       if(
+//         $jombutton-color == $color-contrast-light,
+//         shade-color($jombutton-background, $btn-active-bg-shade-amount),
+//         tint-color($jombutton-background, $btn-active-bg-tint-amount)
+//       ),
+//     $jombutton-active-border:
+//       if(
+//         $jombutton-color == $color-contrast-light,
+//         shade-color($jombutton-border, $btn-active-border-shade-amount),
+//         tint-color($jombutton-border, $btn-active-border-tint-amount)
+//       ),
+//     $jombutton-active-color: color-contrast($jombutton-active-background),
+//     $jombutton-disabled-background: $jombutton-background,
+//     $jombutton-disabled-border: $jombutton-border,
+//     $jombutton-disabled-color: color-contrast($jombutton-disabled-background)
+//   );
+// }
