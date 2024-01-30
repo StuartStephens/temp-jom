@@ -136,7 +136,7 @@ export function FeaturedLayout(props: IFeaturedLayoutProps) {
         <Container fluid className="full-width">
           <h2>Series</h2>
           <p>
-            Joel's newest series &quot;The Abundant Life&quot; is available now!
+            Joel&apos;s newest series &quot;The Abundant Life&quot; is available now!
           </p>
           <JOMButtonLink
             href="/store/store-series"

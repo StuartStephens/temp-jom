@@ -5,7 +5,7 @@ export default async function NotFound() {
   return (
     <div>
       <h2>Oops! </h2>
-      <p> We can't find the page you are looking for!</p>
+      <p> We can&apos;t find the page you are looking for!</p>
       <Link href="/home">Return to Home</Link>
     </div>
   );

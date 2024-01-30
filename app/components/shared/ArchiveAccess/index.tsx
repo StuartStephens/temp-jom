@@ -23,7 +23,7 @@ export function ArchiveAccess(props: IArchiveAccessProps) {
 
       <div>
         <p>
-          Sign-in or create an account to browse our full Today's Word
+          Sign-in or create an account to browse our full Today&apos;s Word
           devotional archive!
         </p>
       </div>

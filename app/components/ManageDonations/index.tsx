@@ -59,10 +59,10 @@ export function ManageDonations(props: IManageDonationsProps) {
           <Col>
             <h3>Manage Donations</h3>
             <p>
-              "With your help, we will continue to tell the world about God's
+              &quot;With your help, we will continue to tell the world about God&apos;s
               unconditional +love and unending hope found in a relationship with
-              Jesus Christ. With God's help, you can Discover the Champion in
-              You!" <strong>- Joel Osteen</strong>
+              Jesus Christ. With God&apos;s help, you can Discover the Champion in
+              You!&quot; <strong>- Joel Osteen</strong>
             </p>
           </Col>
         </Row>
