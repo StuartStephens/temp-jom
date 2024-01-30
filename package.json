@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "server": "concurrently --kill-others \"json-server --routes routes.json --watch ./_data/index.js --port 4000\" \"next dev\" ",
+    "prod": "concurrently --kill-others \"json-server --routes routes.json --watch ./_data/index.js --port 4000\" \"next build\" ",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
