@@ -43,19 +43,37 @@
         "OverLay": false
       },
       "MainContent": [
-        { "ContentType": "InPageNavigationBlock" },
+        {
+          "ContentType": "InPageNavigationBlock"
+        },
         {
           "ContentType": "ACOCarouselAdBlock",
           "ContentLinkExpanded": "SOME DUMMY VALUE"
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -89,14 +107,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -134,14 +168,30 @@
           "ContentType": "AccountDashboardBlock",
           "ContentLinkExpanded": "DUMMY DATA"
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -175,14 +225,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -216,14 +282,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -257,14 +339,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -393,13 +491,21 @@
             "ContentType": "RichTextRowBlock"
           }
         },
-
-        { "ContentType": "LastMessagesBlock" },
-
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -433,9 +539,15 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
         {
           "ContentType": "RichTextRowBlock",
           "ContentLinkExpanded": {
@@ -445,10 +557,18 @@
             "ContentType": "RichTextRowBlock"
           }
         },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -482,14 +602,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -523,14 +659,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -564,14 +716,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -605,17 +773,32 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
-
     {
       "id": "inspiration",
       "Name": "inspiration",
@@ -647,14 +830,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -688,14 +887,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -729,14 +944,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -770,14 +1001,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -811,14 +1058,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     },
     {
@@ -852,14 +1115,30 @@
             ]
           }
         },
-        { "ContentType": "AboutUsContentBlock" },
-        { "ContentType": "FullWidthImageRowBlock" },
-        { "ContentType": "LastMessagesBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "TodaysWordFormBlock" },
-        { "ContentType": "RichTextRowBlock" },
-        { "ContentType": "InspirationalMessageBlock" },
-        { "ContentType": "HighlightedNavigationBlock" }
+        {
+          "ContentType": "AboutUsContentBlock"
+        },
+        {
+          "ContentType": "FullWidthImageRowBlock"
+        },
+        {
+          "ContentType": "LastMessagesBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "TodaysWordFormBlock"
+        },
+        {
+          "ContentType": "RichTextRowBlock"
+        },
+        {
+          "ContentType": "InspirationalMessageBlock"
+        },
+        {
+          "ContentType": "HighlightedNavigationBlock"
+        }
       ]
     }
   ],
@@ -931,7 +1210,7 @@
         },
         {
           "id": "watch",
-          "Href": "/watch",
+          "Href": "/how-towatch",
           "IsDefault": false,
           "IsSelected": false,
           "Level": 1,
@@ -1054,7 +1333,6 @@
         }
       ]
     },
-
     {
       "id": "state-login-dialog",
       "name": "state-login-dialog",
@@ -1181,7 +1459,6 @@
       "name": "state-home",
       "menuItems": []
     },
-
     {
       "id": "state-manage-account",
       "name": "state-manage-account",

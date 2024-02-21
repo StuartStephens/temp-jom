@@ -7,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default async function WatchPage() {
-  redirect("/watch/messages");
+  redirect("/how-to-watch/messages");
 }

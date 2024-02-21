@@ -5,7 +5,7 @@
   "menuItems": [
     {
       "id": "messages",
-      "Href": "/watch/messages",
+      "Href": "/how-to-watch/messages",
       "IsDefault": true,
       "IsSelected": true,
       "Level": 2,
@@ -21,7 +21,7 @@
     },
     {
       "id": "broadcasts",
-      "Href": "/watch/broadcasts",
+      "Href": "/how-to-watch/broadcasts",
       "IsDefault": false,
       "IsSelected": false,
       "Level": 2,
@@ -37,7 +37,7 @@
     },
     {
       "id": "podcasts",
-      "Href": "/watch/podcasts",
+      "Href": "/how-to-watch/podcasts",
       "IsDefault": false,
       "IsSelected": false,
       "Level": 2,

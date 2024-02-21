@@ -14,6 +14,7 @@ export async function PageLayout(props: IPageLayoutProps) {
 
   const pageData: IPageData | undefined = await getPageData(activePageId)
     .then((data) => {
+      console.log(data, "page data");
       return data;
     })
     .catch((e) => {

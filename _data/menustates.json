@@ -81,7 +81,7 @@
       },
       {
         "id": "watch",
-        "Href": "/watch",
+        "Href": "/how-to-watch",
         "IsDefault": false,
         "IsSelected": false,
         "Level": 1,
@@ -204,7 +204,6 @@
       }
     ]
   },
-
   {
     "id": "state-login-dialog",
     "name": "state-login-dialog",
@@ -331,7 +330,6 @@
     "name": "state-home",
     "menuItems": []
   },
-
   {
     "id": "state-manage-account",
     "name": "state-manage-account",

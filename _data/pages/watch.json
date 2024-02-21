@@ -34,14 +34,30 @@
           ]
         }
       },
-      { "ContentType": "AboutUsContentBlock" },
-      { "ContentType": "FullWidthImageRowBlock" },
-      { "ContentType": "LastMessagesBlock" },
-      { "ContentType": "RichTextRowBlock" },
-      { "ContentType": "TodaysWordFormBlock" },
-      { "ContentType": "RichTextRowBlock" },
-      { "ContentType": "InspirationalMessageBlock" },
-      { "ContentType": "HighlightedNavigationBlock" }
+      {
+        "ContentType": "AboutUsContentBlock"
+      },
+      {
+        "ContentType": "FullWidthImageRowBlock"
+      },
+      {
+        "ContentType": "LastMessagesBlock"
+      },
+      {
+        "ContentType": "RichTextRowBlock"
+      },
+      {
+        "ContentType": "TodaysWordFormBlock"
+      },
+      {
+        "ContentType": "RichTextRowBlock"
+      },
+      {
+        "ContentType": "InspirationalMessageBlock"
+      },
+      {
+        "ContentType": "HighlightedNavigationBlock"
+      }
     ]
   },
   {
@@ -66,7 +82,7 @@
         "ContentLinkExpanded": {
           "LinkCollection": [
             {
-              "Href": "/watch",
+              "Href": "/how-to-watch",
               "Title": "Communitty",
               "Target": "_SELF",
               "Text": "Watch",
@@ -79,14 +95,30 @@
           ]
         }
       },
-      { "ContentType": "AboutUsContentBlock" },
-      { "ContentType": "FullWidthImageRowBlock" },
-      { "ContentType": "LastMessagesBlock" },
-      { "ContentType": "RichTextRowBlock" },
-      { "ContentType": "TodaysWordFormBlock" },
-      { "ContentType": "RichTextRowBlock" },
-      { "ContentType": "InspirationalMessageBlock" },
-      { "ContentType": "HighlightedNavigationBlock" }
+      {
+        "ContentType": "AboutUsContentBlock"
+      },
+      {
+        "ContentType": "FullWidthImageRowBlock"
+      },
+      {
+        "ContentType": "LastMessagesBlock"
+      },
+      {
+        "ContentType": "RichTextRowBlock"
+      },
+      {
+        "ContentType": "TodaysWordFormBlock"
+      },
+      {
+        "ContentType": "RichTextRowBlock"
+      },
+      {
+        "ContentType": "InspirationalMessageBlock"
+      },
+      {
+        "ContentType": "HighlightedNavigationBlock"
+      }
     ]
   },
   {
@@ -138,13 +170,27 @@
           }
         }
       },
-      { "ContentType": "FullWidthImageRowBlock" },
-      { "ContentType": "LastMessagesBlock" },
-      { "ContentType": "RichTextRowBlock" },
-      { "ContentType": "TodaysWordFormBlock" },
-      { "ContentType": "RichTextRowBlock" },
-      { "ContentType": "InspirationalMessageBlock" },
-      { "ContentType": "HighlightedNavigationBlock" }
+      {
+        "ContentType": "FullWidthImageRowBlock"
+      },
+      {
+        "ContentType": "LastMessagesBlock"
+      },
+      {
+        "ContentType": "RichTextRowBlock"
+      },
+      {
+        "ContentType": "TodaysWordFormBlock"
+      },
+      {
+        "ContentType": "RichTextRowBlock"
+      },
+      {
+        "ContentType": "InspirationalMessageBlock"
+      },
+      {
+        "ContentType": "HighlightedNavigationBlock"
+      }
     ]
   },
   {
@@ -169,7 +215,7 @@
         "ContentLinkExpanded": {
           "LinkCollection": [
             {
-              "Href": "/watch",
+              "Href": "/how-to-watch",
               "Title": "Communitty",
               "Target": "_SELF",
               "Text": "Watch",
@@ -196,13 +242,59 @@
           }
         }
       },
-      { "ContentType": "FullWidthImageRowBlock" },
-      { "ContentType": "LastMessagesBlock" },
-      { "ContentType": "RichTextRowBlock" },
-      { "ContentType": "TodaysWordFormBlock" },
-      { "ContentType": "RichTextRowBlock" },
-      { "ContentType": "InspirationalMessageBlock" },
-      { "ContentType": "HighlightedNavigationBlock" }
+      {
+        "ContentType": "FullWidthImageRowBlock"
+      },
+      {
+        "ContentType": "LastMessagesBlock"
+      },
+      {
+        "ContentType": "RichTextRowBlock"
+      },
+      {
+        "ContentType": "TodaysWordFormBlock"
+      },
+      {
+        "ContentType": "RichTextRowBlock"
+      },
+      {
+        "ContentType": "InspirationalMessageBlock"
+      },
+      {
+        "ContentType": "HighlightedNavigationBlock"
+      }
+    ]
+  },
+  {
+    "id": "message",
+    "Name": "Message",
+    "Title": "Message",
+    "ContentType": "STANDARD",
+    "MainContent": [
+      {
+        "ContentType": "AboutUsContentBlock"
+      },
+      {
+        "ContentType": "FullWidthImageRowBlock"
+      },
+      {
+        "ContentType": "LastMessagesBlock"
+      },
+      {
+        "ContentType": "RichTextRowBlock"
+      },
+      {
+        "ContentType": "TodaysWordFormBlock"
+      },
+      {
+        "ContentType": "RichTextRowBlock"
+      },
+      {
+        "ContentType": "InspirationalMessageBlock"
+      },
+      {
+        "ContentType": "HighlightedNavigationBlock"
+      }
     ]
   }
 ]

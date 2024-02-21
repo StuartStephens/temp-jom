@@ -32,7 +32,7 @@ export function AboutUsContent(props: IAboutUsContentProps) {
       )}
 
       {quoteCopy && quoteCopy?.Data && quoteCopy?.Data.length > 0 && (
-        <div className=" about-person">
+        <div className="">
           <AboutPersonQuote author={props.author}>
             <XHTMLRenderer xhtml={quoteCopy} />
           </AboutPersonQuote>

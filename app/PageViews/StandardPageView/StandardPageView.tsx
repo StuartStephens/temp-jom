@@ -26,6 +26,7 @@ export function StandardPageView(props: IStandardPageViewProps) {
     backgroundImgUrl: pageData?.GenericHero?.DesktopImage?.Url,
     className: getBannerClassNameByPageData(pageData),
   } as IBannerProps;
+  console.log(pageData, "page data");
 
   return (
     <Container fluid className="full-width standard-content ">
