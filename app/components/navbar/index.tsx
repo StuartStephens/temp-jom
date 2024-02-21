@@ -11,6 +11,8 @@ import { MainMenu } from "./MainMenu";
 import { TabMenu } from "./TabMenu";
 import { TertiaryNavigation } from "./TertiaryNavigation";
 
+import ShoppingCart from "./DynamicParts/Cart/ShoppingCart";
+
 export enum MENU_TYPE {
     TAB_MENU = "TAB_MENU",
     MAIN_MENU = "MAIN_MENU",
@@ -72,6 +74,9 @@ export function Menu(props: any) {
                         logoHeight={50}
                     />
                 </Navbar.Brand>
+                <div className="jom-cart-icon d-flex d-xl-none d-xxl-none">
+                    <ShoppingCart />
+                </div>
             </MainMenu>
         );
     }

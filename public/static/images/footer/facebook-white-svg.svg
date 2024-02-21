@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>UI/Icon/Social/Facebook@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI-Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Brand-Theme" transform="translate(-1041.000000, -280.000000)" fill="#FFFFFF">
+            <g id="Group">
+                <g id="Group-2" transform="translate(80.000000, 41.000000)">
+                    <g id="icons" transform="translate(0.000000, 110.000000)">
+                        <g id="Social" transform="translate(959.000000, 0.000000)">
+                            <g id="UI/Icon/Social/Facebook" transform="translate(0.000000, 128.000000)">
+                                <path d="M82.3088117,1 L6.69118826,1 C4.10004721,1 2,3.10004721 2,5.69118826 L2,81.3088117 C2,83.8996343 4.10004721,86.0003185 6.69118826,86.0003185 L47.4013391,86.0003185 L47.4013391,53.0836549 L36.32402,53.0836549 L36.32402,40.2553411 L47.4013391,40.2553411 L47.4013391,30.7949373 C47.4013391,19.8163466 54.1065854,13.8381867 63.9004361,13.8381867 C68.5919429,13.8381867 72.6238806,14.1872391 73.7987478,14.3432936 L73.7987478,25.8167999 L67.0062384,25.8199847 C61.680004,25.8199847 60.6484522,28.3509333 60.6484522,32.0650296 L60.6484522,40.2553411 L73.351604,40.2553411 L71.6977452,53.0836549 L60.6484522,53.0836549 L60.6484522,86.0003185 L82.3088117,86.0003185 C84.8996343,86.0003185 87,83.8996343 87,81.3088117 L87,5.69118826 C87,3.10004721 84.8996343,1 82.3088117,1" id="Facebook"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
