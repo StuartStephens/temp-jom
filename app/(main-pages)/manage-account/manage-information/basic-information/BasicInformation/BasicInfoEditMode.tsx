@@ -6,18 +6,18 @@ import {
   Form,
   Row,
 } from "react-bootstrap";
-import { IContactInformation } from "../../../../../contexts/Auth/AccountTypes";
-import { useAccountInfoContext } from "../../../../../contexts/AccountInformationContext/AccountInformationContext";
-import { useAuth } from "../../../../../contexts/Auth/Context";
 import {
   deepCopy,
   hasErrors,
-} from "../../../../../contexts/utilities/FormSupport/FSUtils";
-import { withFSContextFormSupport } from "../../../../../contexts/utilities/FormSupport/FormSupport";
+} from "../../../../../../app/contexts/utilities/FormSupport/FSUtils";
+import { withFSContextFormSupport } from "../../../../../../app/contexts/utilities/FormSupport/FormSupport";
 import {
   IFSContextInitializer,
   useFormSupportContext,
-} from "../../../../../contexts/utilities/FormSupport/FormSupportContext";
+} from "../../../../../../app/contexts/utilities/FormSupport/FormSupportContext";
+import { useAccountInfoContext } from "../../../../../contexts/AccountInformationContext/AccountInformationContext";
+import { IContactInformation } from "../../../../../contexts/Auth/AccountTypes";
+import { useAuth } from "../../../../../contexts/Auth/Context";
 import { GENDER } from "./BasicInfoViewMode";
 
 export interface IBasicInfoForm {
@@ -202,14 +202,14 @@ export function BasicInfoEditMode(props: IBasicInfoEditModeProps) {
                   }}
                   onBlur={handleSelectBlur}
                   value={form?.gender || GENDER.UNSPECIFIED}
-                // defaultValue={countries && countries[0].Iso3Code}
+                  // defaultValue={countries && countries[0].Iso3Code}
                 >
                   {Object.entries(GENDER).map(([key, value]: [string, any]) => {
                     return (
                       <option
                         key={key}
                         value={value}
-                      // selected={c.Iso2Code === "USA"}
+                        // selected={c.Iso2Code === "USA"}
                       >
                         {value}
                       </option>

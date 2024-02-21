@@ -10,9 +10,9 @@ import { FormField } from "./FormSupportTypes";
 // 5)
 
 export interface IFSFormConfiguration {
-    postFormEndpoint?: string;
-    validateFormEndpoint?: string | undefined;
-    formFields: Map<string, FormField>;
+  postFormEndpoint?: string;
+  validateFormEndpoint?: string | undefined;
+  formFields: Map<string, FormField>;
 }
 
 export type DSProvider = () => Promise<any>;
@@ -22,44 +22,44 @@ export type FormSubmitProvider = () => Promise<Response>;
 export type FormSubmitSuccessProvider = (data: any) => void;
 
 export interface IFSBehaviorsProps {
-    children: ReactNode;
-    defaultForm: any;
+  children: ReactNode;
+  defaultForm: any;
 
-    dataSourceProvider?: () => Promise<any>; //if you need to fetch data to load into the form - can be in any format, as you can use the dataSourceReducer to convert it to your form specs
-    dataSourceReducer?: (data: any) => any; //this should reduce the data source to form properties which match the field definitions
-    formConfiguration: IFSFormConfiguration; //contains the endpoint configurations and the field definitions ( names, labels, validation, etc. )
-    formSubmitProvider: FormSubmitProvider;
-    formSubmitSuccessProvider?: (data: any) => void; // if the form saves successfully, what do you want to do with the data (refesh the UI, etc)
-    // formSubmissionProvider: () => Promise<any>;
-    //   initializeForm: Function;
-    //   fieldConfiguration: any;
-    //   onBeforeSubmit: Function;
-    //   onSubmit: Function;
-    //   onSubmitSuccess: Function;
-    //   onSubmitFailure: Function;
+  dataSourceProvider?: () => Promise<any>; //if you need to fetch data to load into the form - can be in any format, as you can use the dataSourceReducer to convert it to your form specs
+  dataSourceReducer?: (data: any) => any; //this should reduce the data source to form properties which match the field definitions
+  formConfiguration: IFSFormConfiguration; //contains the endpoint configurations and the field definitions ( names, labels, validation, etc. )
+  formSubmitProvider: FormSubmitProvider;
+  formSubmitSuccessProvider?: (data: any) => void; // if the form saves successfully, what do you want to do with the data (refesh the UI, etc)
+  // formSubmissionProvider: () => Promise<any>;
+  //   initializeForm: Function;
+  //   fieldConfiguration: any;
+  //   onBeforeSubmit: Function;
+  //   onSubmit: Function;
+  //   onSubmitSuccess: Function;
+  //   onSubmitFailure: Function;
 }
 
 export function FSBehaviors(props: IFSBehaviorsProps) {
-    const {
-        children,
-        defaultForm,
-        dataSourceProvider,
-        dataSourceReducer,
-        formConfiguration,
-        formSubmitSuccessProvider,
-        formSubmitProvider,
-    } = props;
+  const {
+    children,
+    defaultForm,
+    dataSourceProvider,
+    dataSourceReducer,
+    formConfiguration,
+    formSubmitSuccessProvider,
+    formSubmitProvider,
+  } = props;
 
-    return (
-        <>
-            {/* {state?.formConfiguration?.formFields &&
+  return (
+    <>
+      {/* {state?.formConfiguration?.formFields &&
         JSON.stringify(
           JSON.stringify(
             Object.fromEntries(state.formConfiguration.formFields.entries())
           )
         )} */}
-            {/* {state ? JSON.stringify(state) : "NO FORM "} */}
-            {/* {children && state ? (
+      {/* {state ? JSON.stringify(state) : "NO FORM "} */}
+      {/* {children && state ? (
         <div>
           {isInitialized ? (
             <div>
@@ -73,7 +73,6 @@ export function FSBehaviors(props: IFSBehaviorsProps) {
       ) : (
         <div>No children provided</div>
       )} */}
-        </>
-    );
+    </>
+  );
 }
-

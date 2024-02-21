@@ -1,8 +1,8 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { formatDateForPicker } from "../../../../../contexts/utilities/FormSupport/FSUtils";
 import { IBasicInfoForm } from "./BasicInfoEditMode";
+import { formatDateForPicker } from "../../../../../contexts/utilities/FormSupport/FSUtils";
 
-export interface IBasicInfoViewModeProps { }
+export interface IBasicInfoViewModeProps {}
 
 export enum GENDER {
   UNSPECIFIED = "Unspecified",

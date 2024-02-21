@@ -33,7 +33,36 @@
 //   "backgroundTheme": $backgroundTheme,
 // );
 
-// // Merge the maps
+// $font-family-base: var(--bs-font-sans-serif);
+
+$font-family-gothic: "alternate-gothic-no-3-d", sans-serif;
+$font-family-minion: "minion-italic", serif;
+$font-family-museo: "museo-sans", Helvetica, Arial, sans-serif;
+
+$font-family-base: $font-family-museo;
+$font-family-code: var(--bs-font-monospace);
+
+$navbar-nav-link-font-family: $font-family-gothic;
+$navbar-nav-link-font-size: 1.125rem;
+$navbar-nav-link-font-weight: 400;
+$navbar-nav-link-text-transform: uppercase;
+$navbar-nav-link-letter-spacing: 0;
+$navbar-nav-link-color: rgba($white, 1);
+$navbar-nav-link-hover-color: rgba($white, 0.7);
+$navbar-toggler-focus-width: 0.1rem;
+$accountBannerUrl: "https://int.joelosteen.com/contentassets/21f264054ee240a7a007df0f23d95b69/largedisplay.png";
+$tertiary: black;
+$linkColor: blue;
+
+// scss-docs-start theme-colors-map
+
+// $custom-colors: (
+//   "linkColor": $linkColor,
+//   "tertiary": $tertiary,
+//   "secondary": $secondary,
+// );
+
+// Merge the maps
 // $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
@@ -47,37 +76,6 @@
 //   )
 // );
 // $utilities-text-colors: map-loop($utilities-text, rgba-css-var, "$key", "text");
-
-// $font-family-base: var(--bs-font-sans-serif);
-
-$font-family-gothic: "alternate-gothic-no-3-d", sans-serif;
-$font-family-minion: "minion-italic", serif;
-$font-family-museo: "museo-sans", Helvetica, Arial, sans-serif;
-
-$font-family-base: $font-family-museo;
-$font-family-code: var(--bs-font-monospace);
-
-$navbar-nav-link-font-family: $font-family-gothic;
-$navbar-nav-link-font-size: 1.25rem;
-$navbar-nav-link-font-weight: 400;
-$navbar-nav-link-text-transform: uppercase;
-$navbar-nav-link-letter-spacing: 0;
-$navbar-nav-link-color: rgba($white, 1);
-$navbar-nav-link-hover-color: rgba($white, 0.7);
-$navbar-toggler-focus-width: 0.1rem;
-$accountBannerUrl: "https://int.joelosteen.com/contentassets/21f264054ee240a7a007df0f23d95b69/largedisplay.png";
-$tertiary: black;
-$linkColor: blue;
-
-// scss-docs-start theme-colors-map
-
-$custom-colors: (
-  "linkColor": $linkColor,
-);
-
-// Merge the maps
-$theme-colors: map-merge($theme-colors, $custom-colors);
-
 // $jombutton-background: transparent;
 // $jombutton-color: $linkColor;
 // $jombutton-hover-background: transparent;

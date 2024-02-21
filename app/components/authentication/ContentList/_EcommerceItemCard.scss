@@ -1,0 +1,47 @@
+.e-commerce-item-card img {
+  height: 295px;
+  width: 239px;
+}
+
+.e-commerce-item-card-overlay {
+  /*display: none;*/
+  position: absolute;
+  margin: auto;
+  height: 100%;
+}
+
+.e-commerce-item-card-overlay-instructions {
+  font-size: 0;
+  line-height: 0;
+  color: transparent;
+  position: absolute;
+}
+
+.e-commerce-item-card-overlay-bg {
+  position: absolute;
+  margin: auto;
+  height: 100%;
+  background: rgba(64, 64, 64, 0.85);
+}
+
+.e-commerce-item-card-overlay-bg-hidden {
+  display: none;
+}
+
+.e-commerce-item-card-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.clickable-area:hover {
+  cursor: pointer;
+  outline: 1px solid var(--bs-body-color);
+}
+
+.e-commerce-item-card .card-body {
+  padding: 0;
+}

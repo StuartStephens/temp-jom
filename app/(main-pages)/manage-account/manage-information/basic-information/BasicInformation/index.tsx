@@ -1,14 +1,14 @@
 "use client";
 import { useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import { formatDateForPicker } from "../../../../../../app/contexts/utilities/FormSupport/FSUtils";
+import { BASIC_INFORMATION } from "../../../../../../app/contexts/utilities/FormSupport/FormFieldPropConstants";
 import { IContactInformation } from "../../../../../contexts/Auth/AccountTypes";
 import { useAuth } from "../../../../../contexts/Auth/Context";
-import { formatDateForPicker } from "../../../../../contexts/utilities/FormSupport/FSUtils";
-import { BASIC_INFORMATION } from "../../../../../contexts/utilities/FormSupport/FormFieldPropConstants";
 import { BasicInfoWithFormSupport, IBasicInfoForm } from "./BasicInfoEditMode";
 import { BasicInfoViewMode, GENDER } from "./BasicInfoViewMode";
 
-export interface IBasicInformationProps { }
+export interface IBasicInformationProps {}
 export function getGender(gender: number | undefined) {
   if (!gender) return GENDER.UNSPECIFIED;
   if (gender == 1) {
@@ -24,14 +24,6 @@ export function BasicInformation(props: IBasicInformationProps) {
   const { contactInfo } = useAuth();
   const [editMode, setEditMode] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  //   const dummydata = {
-  //     firstName: "Billy",
-  //     lastName: "The Kid",
-  //     dateOfBirth: "10/31/2000",
-  //     gender: GENDER.UNSPECIFIED,
-  //   } as IBasicInfo;
-
-  //   const { FirstName, LastName, Birthdate, Gender } = contactInfo;
 
   return (
     <Container fluid className="full-width">

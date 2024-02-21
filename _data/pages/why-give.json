@@ -1,0 +1,123 @@
+[
+  {
+    "id": "why-give",
+    "Name": "why-give",
+    "Title": "Why Give",
+    "ContentType": "WhyGivePage",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://www.joelosteen.com/globalassets/images/jom/why-give/why-givee---dr-paul-jpg/large_display.jpg"
+      },
+      "Heading": "Why Give?"
+    },
+    "MainContent": [
+      {
+        "ContentType": "CTA5050Block",
+        "ContentLinkExpanded": {
+          "Heading": "SCRIPTURE VERSE LED LIGHT",
+          "SubHeading": null,
+          "Copy": {
+            "Data": "Illuminate your home with the warm glow of faith with our Jeremiah 29:11 Scripture Verse LED Light. The clear acrylic design and wooden light-up base make it a stylish and modern addition to any room. Also includes the <em>2024 Today's Word Devotional Calendar.</em> "
+          },
+
+          "Image": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/why-give/2019-giving-posterframe.jpg",
+            "Title": "Joel and Victoria",
+            "Caption": "Thank you for your ongoing support. Without you, this would not be possible."
+          },
+          "Callout": "OUR THANKS FOR YOUR GIFT OF $150 OR MORE",
+          "CTALink": {
+            "ContentLink": "Donate",
+            "Href": "/aco?donate=true",
+            "Title": "Donate"
+          },
+          "ImageOnLeft": false,
+          "ShowContentDivider": false,
+          "IsExclusiveOffer": false
+        }
+      },
+      {
+        "ContentType": "HighlightedNavigationBlock",
+        "ContentLinkExpanded": {
+          "Type": "style-3",
+          "LeftItem": {
+            "Heading": null,
+            "Heading2": "Most-watched inspirational program around the world",
+            "Icon": {
+              "Url": "https://int.joelosteen.com/contentassets/c10d7af1dba2404cba128cac3d4ea01b/messages_icon.png",
+              "Title": "Inspirational Messages"
+            },
+            "Link": null
+          },
+          "CenterItem": {
+            "Heading": null,
+            "Heading2": "Reached with our messages of hope each month",
+            "Icon": {
+              "Url": "https://www.joelosteen.com/globalassets/images/jom/why-give/inspiration_icon.png",
+              "Title": "Messages of Hope"
+            },
+            "Link": null
+          },
+          "RightItem": {
+            "Heading": null,
+            "Heading2": "Over 100,000 decisions for Christ annually",
+            "Icon": {
+              "Url": "https://www.joelosteen.com/globalassets/images/jom/why-give/store_icon.png",
+              "Title": "Decisions for Christ"
+            },
+            "Link": null
+          }
+        }
+      },
+      {
+        "ContentType": "NightOfHopeBlock",
+        "ContentLinkExpanded": {
+          "BackgroundImage": {
+            "Url": "https://www.joelosteen.com/globalassets/images/jom/why-give/anoh_light-jpg/large_display.jpg",
+            "Title": "Night of Hope"
+          },
+          "Heading": "Night of Hope",
+          "Content": {
+            "Data": "Joel and Victoria Osteen are coming to a city near you! Make plans now to attend one of these inspirational nights of hope, worship and encouragement in 11 cities across America."
+          },
+          "Links": [
+            {
+              "Href": "/events",
+              "Title": "A Night of Hope"
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "HighlightedNavigationBlock",
+        "ContentLinkExpanded": {
+          "Type": "style-2",
+          "LeftItem": {
+            "Heading": "Give To Our Ministry",
+            "Icon": null,
+            "Link": {
+              "Href": "/home/?donate=true",
+              "Title": "Donate Now"
+            }
+          },
+          "CenterItem": {
+            "Heading": "Become A Monthly Partner",
+            "Icon": null,
+            "Link": {
+              "Href": "/home/?donate=true",
+              "Title": "Partner With Us"
+            }
+          },
+          "RightItem": {
+            "Heading": "Leave A Legacy Of Hope",
+            "Icon": null,
+            "Link": {
+              "Href": "#",
+              "Title": "Discover Now"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

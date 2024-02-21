@@ -5,7 +5,7 @@ import { useState } from "react";
 import { TransactionHistory } from "./TransactionHistory";
 import { IOrderHeader } from "../../../../../contexts/Common/TransactionDetailsTypes";
 
-export interface ITransactionHistoryProps { }
+export interface ITransactionHistoryProps {}
 
 export function TransactionHistoryContents(props: ITransactionHistoryProps) {
   const [selectedOrder, setSelectedOrder] = useState<

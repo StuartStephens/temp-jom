@@ -1,0 +1,54 @@
+{
+  "id": "state-church-info",
+  "name": "state-church-info",
+  "menuItems": [
+    {
+      "id": "church-info",
+      "Href": "/manage-account/church-info",
+      "IsDefault": true,
+      "IsSelected": true,
+      "Level": 3,
+      "Name": "church-info",
+      "ParentName": "ACCOUNT",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": false,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "General Information",
+      "Title": "General Information"
+    },
+    {
+      "id": "transaction-history",
+      "Href": "/manage-account/church-info/transaction-history",
+      "IsDefault": false,
+      "IsSelected": false,
+      "Level": 3,
+      "Name": "transaction-history",
+      "ParentName": "ACCOUNT",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": false,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Transaction Information",
+      "Title": "Transaction Information"
+    },
+    {
+      "id": "manage-donations",
+      "Href": "/manage-account/church-info/manage-donations",
+      "IsDefault": false,
+      "IsSelected": false,
+      "Level": 3,
+      "Name": "manage-donations",
+      "ParentName": "ACCOUNT",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": false,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Manage Donations",
+      "Title": "Manage Donations"
+    }
+  ]
+}

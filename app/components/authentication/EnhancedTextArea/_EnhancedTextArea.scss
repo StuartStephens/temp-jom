@@ -1,0 +1,21 @@
+.enhanced-text-area {
+  &.form-floating > .form-control:focus ~ label::after,
+  &.form-floating > .form-control:not(:placeholder-shown) ~ label::after,
+  &.form-floating > .form-control-plaintext ~ label::after,
+  &.form-floating > .form-select ~ label::after {
+    background-color: rgb(255, 255, 255, 0.8);
+  }
+  &.count-approaching-limit {
+    label {
+      color: $warning !important;
+    }
+  }
+  &.count-at-limit {
+    label {
+      color: $danger !important;
+    }
+  }
+  textarea.form-control {
+    height: auto !important;
+  }
+}

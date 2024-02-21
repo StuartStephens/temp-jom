@@ -38,6 +38,7 @@ export enum VALIDATION_TYPES {
   REQUIRED = "REQUIRED",
   MAX_LENGTH = "MAX_LENGTH",
   VALID_DATE = "VALID_DATE",
+  VALID_YEAR = "VALID_YEAR",
   FUTURE_DATE = "FUTURE_DATE",
   CREDIT_CARD_NUMBER = "CREDIT_CARD_NUMBER",
   CREDIT_CARD_SEC_CODE = "CREDIT_CARD_SEC_CODE",
@@ -74,4 +75,3 @@ export type State = {
   Country: string | null;
   //   IsSelected: boolean;
 };
-

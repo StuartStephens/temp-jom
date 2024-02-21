@@ -1,11 +1,11 @@
-import { PAST_CONTENT_DISPLAY_FORMATS } from "../../../../types";
 import { PastWallpapers } from "../../../../components/PastWallpapers";
 import {
   PAGE_GUTTER,
   PageGutterLayout,
 } from "../../../../components/shared/layouts/PageGutterLayout";
+import { PAST_CONTENT_DISPLAY_FORMATS } from "../../../../types";
 
-export interface IWallpapersProps { }
+export interface IWallpapersProps {}
 
 async function getWallpapers() {
   try {

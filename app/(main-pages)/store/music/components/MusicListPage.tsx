@@ -1,15 +1,15 @@
 "use client";
 import { useEffect, useState } from "react";
+import { ProductList } from "../../../../components/ProductList";
+import { IContentListItem } from "../../../../components/ContentList/ContentListItem";
+import { getPastContentFilterString } from "../../../../components/cms/utilities/ContentUtils";
 import {
   CONTENT_TYPES,
   IPastContentFilter,
   PAST_CONTENT_DISPLAY_FORMATS,
 } from "../../../../types";
-import { ProductList } from "../../../../components/ProductList";
-import { IContentListItem } from "../../../../components/ContentList/ContentListItem";
-import { getPastContentFilterString } from "../../../../components/cms/utilities/ContentUtils";
 
-export interface IMusicListPageProps { }
+export interface IMusicListPageProps {}
 
 export function MusicListPage(props: IMusicListPageProps) {
   const [music, setMusic] = useState<IContentListItem[]>();
@@ -31,10 +31,8 @@ export function MusicListPage(props: IMusicListPageProps) {
             },
           }
         );
-        console.log(res);
         if (res.ok) {
           const content = await res.json();
-          console.log("content", content);
           setMusic(content);
         } else {
           console.error("RESPSONSE NOT OK", res);

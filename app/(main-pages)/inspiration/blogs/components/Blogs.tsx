@@ -1,11 +1,11 @@
-import { PAST_CONTENT_DISPLAY_FORMATS } from "../../../../types";
 import { PastBlogs } from "../../../../components/PastBlogs";
 import {
   PAGE_GUTTER,
   PageGutterLayout,
 } from "../../../../components/shared/layouts/PageGutterLayout";
+import { PAST_CONTENT_DISPLAY_FORMATS } from "../../../../types";
 
-export interface IBlogsProps { }
+export interface IBlogsProps {}
 
 async function getBlogs() {
   try {

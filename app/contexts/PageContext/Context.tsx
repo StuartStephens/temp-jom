@@ -9,8 +9,8 @@ import {
 } from "react";
 import { Container } from "react-bootstrap";
 import { IPageData } from "../../../app/PageViews/PageViewUtils";
-import { useUIStateContext } from "../../contexts/UIStateContext/Context";
-import { LoadingSpinner } from "../../components/LoadingSpinner";
+import { useUIStateContext } from "../../../app/contexts/UIStateContext/Context";
+import { LoadingSpinner } from "../../../app/components/LoadingSpinner";
 
 interface PageDataContextData {
   pageData: IPageData | undefined;

@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { Button, Col, Container, Row, Table } from "react-bootstrap";
+import { LoadingSpinner } from "../../../../../../app/components/LoadingSpinner";
+import { useAuth } from "../../../../../../app/contexts/Auth/Context";
+import { LoginRequired } from "../../../../../components/LoginRequired";
 import { IOrderHeader } from "../../../../../contexts/Common/TransactionDetailsTypes";
-import { LoadingSpinner } from "../../../../../components/LoadingSpinner";
-import { useAuth } from "../../../../../contexts/Auth/Context";
 import {
   formatDate,
   formatPrice,
@@ -11,9 +12,11 @@ import { getOrderStatus } from "./OrderUtils";
 
 export interface ITransactionHistoryProps {
   onSelectTransaction: (order: IOrderHeader) => void;
+  churchId?: string;
 }
 
 export function TransactionHistory(props: ITransactionHistoryProps) {
+  const { checkIsLoggedIn, contactInfo } = useAuth();
   const { fetchAPI } = useAuth();
   const { onSelectTransaction } = props;
   // const { getOrderHeaders } = useTransactionHistoryAPI();
@@ -23,16 +26,25 @@ export function TransactionHistory(props: ITransactionHistoryProps) {
   const [isLoading, setIsLoading] = useState(false);
   const [rowsPerPage, setRowsPerPage] = useState(6);
   const [pagesLoaded, setPagesLoaded] = useState(1);
+  const [churchId, setChurchId] = useState<string | undefined>(props?.churchId);
 
   const [pageCount, setPageCount] = useState(0);
 
-  function updateOrderHeaders(page: number, count: number) {
-    async function getOrderHeaders(page: number, count: number) {
+  function updateOrderHeaders(page: number, count: number, churchId?: string) {
+    async function getOrderHeaders(
+      page: number,
+      count: number,
+      churchId?: string
+    ) {
       //if (checkIsLoggedIn()) {
+
       setIsLoading(true);
       try {
+        //calls a different url depending on the church id
         const response = await fetchAPI(
-          `Contact/Orders/${page}/${count}`,
+          `Contact/Orders/${page}/${count}${
+            churchId ? "?churchId=" + churchId : ""
+          }`,
           undefined,
           "GET"
         )
@@ -53,20 +65,20 @@ export function TransactionHistory(props: ITransactionHistoryProps) {
     if (!count) {
       count = 10;
     }
-    getOrderHeaders(page, count);
+    getOrderHeaders(page, count, churchId);
   }
 
   useEffect(() => {
-    // const apiResults: IOrderHeadersAPIResult = getOrderHeaders();
-    // if (
-    //   !apiResults.errors ||
-    //   (apiResults.errors.length < 1 && apiResults.results)
-    // ) {
-    //   setTransactions(apiResults.results);
-    // }
-    updateOrderHeaders(1, 20);
+    updateOrderHeaders(1, 20, props.churchId);
+    setChurchId(props?.churchId);
     // eslint-disable-next-line
   }, []);
+
+  useEffect(() => {
+    updateOrderHeaders(1, 20, props.churchId);
+    setChurchId(props?.churchId);
+    // eslint-disable-next-line
+  }, [contactInfo]);
 
   useEffect(() => {
     setPageCount(
@@ -87,7 +99,9 @@ export function TransactionHistory(props: ITransactionHistoryProps) {
   if (isLoading) {
     return <LoadingSpinner />;
   }
-  return (
+  return !checkIsLoggedIn() ? (
+    <LoginRequired />
+  ) : (
     <div>
       <Container>
         <h2>Transaction History</h2>
@@ -156,7 +170,7 @@ export function TransactionHistory(props: ITransactionHistoryProps) {
         </Container>
       ) : (
         <Container>
-          <p>You currently have no transacitons</p>
+          <p>You currently have no transactions</p>
         </Container>
       )}
     </div>

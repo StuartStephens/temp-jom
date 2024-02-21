@@ -1,0 +1,27 @@
+.todays-word-form {
+  &.todays-word-banner .banner-body {
+    min-height: unset;
+  }
+  &.todays-word-form-no-devotion {
+    background-color: #008376;
+  }
+  .todays-word-copy {
+    line-height: 1.88;
+    text-align: justify;
+  }
+
+  .todays-word-form-block {
+    .button-row {
+      width: 100%;
+      @include media-breakpoint-up(md) {
+        width: auto;
+      }
+      .btn {
+        width: 100%;
+        @include media-breakpoint-up(md) {
+          width: auto;
+        }
+      }
+    }
+  }
+}

@@ -1,11 +1,11 @@
-import { PAST_CONTENT_DISPLAY_FORMATS } from "../../../../types";
 import { PastArticles } from "../../../../components/PastArticles";
 import {
   PAGE_GUTTER,
   PageGutterLayout,
 } from "../../../../components/shared/layouts/PageGutterLayout";
+import { PAST_CONTENT_DISPLAY_FORMATS } from "../../../../types";
 
-export interface IArticlesProps { }
+export interface IArticlesProps {}
 
 async function getArticles() {
   try {

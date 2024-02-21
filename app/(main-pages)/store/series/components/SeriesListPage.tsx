@@ -4,12 +4,12 @@ import {
   CONTENT_TYPES,
   IPastContentFilter,
   PAST_CONTENT_DISPLAY_FORMATS,
-} from "../../../../types";
+} from "../../../../../app/types";
 import { ProductList } from "../../../../components/ProductList";
 import { IContentListItem } from "../../../../components/ContentList/ContentListItem";
 import { getPastContentFilterString } from "../../../../components/cms/utilities/ContentUtils";
 
-export interface ISeriesListPageProps { }
+export interface ISeriesListPageProps {}
 
 export function SeriesListPage(props: ISeriesListPageProps) {
   const [series, setSeries] = useState<IContentListItem[]>();
@@ -31,10 +31,8 @@ export function SeriesListPage(props: ISeriesListPageProps) {
             },
           }
         );
-        console.log(res);
         if (res.ok) {
           const content = await res.json();
-          console.log("content", content);
           setSeries(content);
         } else {
           console.error("RESPSONSE NOT OK", res);

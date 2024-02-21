@@ -5,7 +5,7 @@ import {
   CONTENT_TYPES,
   IPastContentFilter,
   PAST_CONTENT_DISPLAY_FORMATS,
-} from "../../../../types";
+} from "../../../../../app/types";
 import { IContentListItem } from "../../../../components/ContentList/ContentListItem";
 import { ProductList } from "../../../../components/ProductList";
 import { getPastContentFilterString } from "../../../../components/cms/utilities/ContentUtils";
@@ -17,7 +17,7 @@ import {
 } from "../../../../components/shared/layouts/PageGutterLayout";
 import { BookListPage } from "../../books/components/BookListPage";
 
-export interface IFeaturedLayoutProps { }
+export interface IFeaturedLayoutProps {}
 
 export async function getFeaturedDataSTATICDATA() {
   try {
@@ -63,7 +63,6 @@ export function FeaturedLayout(props: IFeaturedLayoutProps) {
             },
           }
         );
-        console.log(res);
         if (res.ok) {
           const content = await res.json();
           setBooks(content);
@@ -136,7 +135,7 @@ export function FeaturedLayout(props: IFeaturedLayoutProps) {
         <Container fluid className="full-width">
           <h2>Series</h2>
           <p>
-            Joel&apos;s newest series &quot;The Abundant Life&quot; is available now!
+            Joel's newest series &quot;The Abundant Life&quot; is available now!
           </p>
           <JOMButtonLink
             href="/store/store-series"

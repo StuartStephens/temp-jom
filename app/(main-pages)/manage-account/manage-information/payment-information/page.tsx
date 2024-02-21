@@ -1,5 +1,5 @@
-import { PaymentInfo } from "../../../../components/PaymentInfo";
-import { AccountLayout } from "../../../../layouts/AccountLayout";
+import { PaymentInfo } from "../../../../../app/components/PaymentInfo";
+import { AccountLayout } from "../../../../../app/layouts/AccountLayout";
 
 import { Metadata } from "next";
 

@@ -1,4 +1,4 @@
-import { UserSettings } from "../../components/LoginForm/UserSettings";
+import { UserSettings } from "../../../app/components/LoginForm/UserSettings";
 
 export default function PageLayout({
   children, // will be a page or nested layout

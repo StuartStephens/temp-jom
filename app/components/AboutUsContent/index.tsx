@@ -1,6 +1,9 @@
 import { IXHTMLString } from "../cms/types/core/CoreTypes";
 import { XHTMLRenderer } from "../shared/XHTMLRenderer";
-import { PageGutterLayout } from "../shared/layouts/PageGutterLayout";
+import {
+  PAGE_GUTTER,
+  PageGutterLayout,
+} from "../shared/layouts/PageGutterLayout";
 import { AboutPersonQuote } from "./AboutPersonQuote";
 
 export interface IAboutUsContentProps {
@@ -14,7 +17,7 @@ export interface IAboutUsContentProps {
 export function AboutUsContent(props: IAboutUsContentProps) {
   const { heading1, heading2, bodyCopy, quoteCopy } = props;
   return (
-    <PageGutterLayout>
+    <PageGutterLayout variant={PAGE_GUTTER.NONE}>
       {heading1 && heading1.length > 0 && (
         <div>
           <h2>{heading1}</h2>
@@ -32,7 +35,7 @@ export function AboutUsContent(props: IAboutUsContentProps) {
       )}
 
       {quoteCopy && quoteCopy?.Data && quoteCopy?.Data.length > 0 && (
-        <div className="">
+        <div className=" about-person">
           <AboutPersonQuote author={props.author}>
             <XHTMLRenderer xhtml={quoteCopy} />
           </AboutPersonQuote>

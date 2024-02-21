@@ -1,0 +1,21 @@
+{
+  "id": "state-why-give",
+  "name": "state-why-give",
+  "level": 0,
+  "menuItems": [
+    {
+      "id": "why-give",
+      "IsDefault": true,
+      "IsSelected": true,
+      "Level": 0,
+      "Name": "why-give",
+      "ShowWhenLoggedIn": false,
+      "ShowWhenLoggedOut": true,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "Target": "_NEW",
+      "Text": "Why Give",
+      "Title": "Why Give"
+    }
+  ]
+}

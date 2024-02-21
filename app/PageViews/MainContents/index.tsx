@@ -1,8 +1,8 @@
 "use client";
 import { ReactNode, useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
-import { MENU_TYPE, Menu } from "../../components/navbar";
-import { useUIStateContext } from "../../contexts/UIStateContext/Context";
+import { MENU_TYPE, Menu } from "../../../app/components/navigation/Menu";
+import { useUIStateContext } from "../../../app/contexts/UIStateContext/Context";
 import { ShareYourStoryForm } from "../../components/ShareYourStoryForm";
 import { ACO66IntroBlock } from "../../components/cms/block/ACO66IntroBlock";
 import { ACOCarouselAdBlock } from "../../components/cms/block/ACOCarouselAdBlock";
@@ -33,6 +33,11 @@ import {
 } from "../../components/shared/layouts/PageGutterLayout";
 import { IMainContent, IPageData, getPageData } from "../PageViewUtils";
 import { ACOMastheadBlock } from "../../components/cms/block/ACOMastheadBlock";
+import { CTA5050Block } from "../../components/cms/block/CTA5050Block";
+import { NightOfHopeBlock } from "../../components/cms/block/NightOfHopeBlock";
+import { ContactUsInstructionsBlock } from "../../components/cms/block/ContactUsInstructionsBlock";
+import { QuestionAndAnswerGroupBlock } from "../../components/cms/block/QuestionAndAnswerGroupBlock";
+import { VideoRowBlock } from "../../components/cms/block/VideoRowBlock";
 
 export interface IMainContentsProps {
   contentPageData: IPageData | undefined;
@@ -48,7 +53,7 @@ const MainContentsBlockChooser = (content: IMainContent) => {
             level={2}
             menuStateName={content?.MenuStateId}
             menuType={MENU_TYPE.TAB_MENU}
-            onMenuSelect={(eventKey: string) => { }}
+            onMenuSelect={(eventKey: string) => {}}
           />
         </PageGutterLayout>
       ) : null;
@@ -67,13 +72,13 @@ const MainContentsBlockChooser = (content: IMainContent) => {
       ) : null;
     case "ACOCarouselAdBlock":
       return content.ContentLinkExpanded ? (
-        <PageGutterLayout variant={PAGE_GUTTER.NONE} className="mt-0 mb-4 ">
+        <PageGutterLayout variant={PAGE_GUTTER.NONE} className=" ">
           <ACOCarouselAdBlock {...content.ContentLinkExpanded} />
         </PageGutterLayout>
       ) : null;
     case "FeaturedContentCarouselBlock":
       return content.ContentLinkExpanded ? (
-        <PageGutterLayout variant={PAGE_GUTTER.NONE} className="mt-4 mb-4 ">
+        <PageGutterLayout variant={PAGE_GUTTER.NONE} className="">
           <FeaturedContentCarouselBlock {...content.ContentLinkExpanded} />
         </PageGutterLayout>
       ) : null;
@@ -197,10 +202,40 @@ const MainContentsBlockChooser = (content: IMainContent) => {
           <ACOOfferBlock {...content.ContentLinkExpanded} />
         </PageGutterLayout>
       ) : null;
+    case "CTA5050Block":
+      return content.ContentLinkExpanded ? (
+        <PageGutterLayout className="" variant={PAGE_GUTTER.NONE}>
+          <CTA5050Block {...content.ContentLinkExpanded} />
+        </PageGutterLayout>
+      ) : null;
     case "ACOMastheadBlock":
       return content.ContentLinkExpanded ? (
         <PageGutterLayout className="" variant={PAGE_GUTTER.NONE}>
           <ACOMastheadBlock {...content.ContentLinkExpanded} />
+        </PageGutterLayout>
+      ) : null;
+    case "NightOfHopeBlock":
+      return content.ContentLinkExpanded ? (
+        <PageGutterLayout className="" variant={PAGE_GUTTER.NONE}>
+          <NightOfHopeBlock {...content.ContentLinkExpanded} />
+        </PageGutterLayout>
+      ) : null;
+    case "ContactUsInstructionsBlock":
+      return content.ContentLinkExpanded ? (
+        <PageGutterLayout className="" variant={PAGE_GUTTER.NONE}>
+          <ContactUsInstructionsBlock {...content.ContentLinkExpanded} />
+        </PageGutterLayout>
+      ) : null;
+    case "QuestionAndAnswerGroupBlock":
+      return content.ContentLinkExpanded ? (
+        <PageGutterLayout className="" variant={PAGE_GUTTER.NONE}>
+          <QuestionAndAnswerGroupBlock {...content.ContentLinkExpanded} />
+        </PageGutterLayout>
+      ) : null;
+    case "VideoRowBlock":
+      return content.ContentLinkExpanded ? (
+        <PageGutterLayout className="" variant={PAGE_GUTTER.NONE}>
+          <VideoRowBlock {...content.ContentLinkExpanded} />
         </PageGutterLayout>
       ) : null;
     default:
@@ -238,7 +273,7 @@ export function MainContents(props: IMainContentsProps) {
   }
   if (contentData && contentData.MainContent) {
     return (
-      <Container className="full-width about-person" fluid>
+      <Container className="full-width " fluid>
         {contentData?.MainContent.map((o: IMainContent, index: number) => {
           return (
             <div key={o.ContentType + "+" + o.Name + "_" + index}>

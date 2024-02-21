@@ -2,7 +2,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import { FieldReference, useFormSupportContext } from "./FormSupportContext";
 import { FormField } from "./FormSupportTypes";
 
-export interface IFormErrorsProps { }
+export interface IFormErrorsProps {}
 
 export function FormErrors(props: IFormErrorsProps) {
   // const { errors } = props;
@@ -32,7 +32,7 @@ export function FormErrors(props: IFormErrorsProps) {
           </Col>
         </Row>
         <Row>
-          <Col className="col-12 ">
+          <Col className="col-12 fs-6">
             {/* {Object.values(errors)} {Object.values(errors).length} */}
             <div className="pb-5 d-flex flex-column gap-2">
               <strong className="text-danger">
@@ -43,18 +43,22 @@ export function FormErrors(props: IFormErrorsProps) {
                 return messageString && messageString !== "" ? (
                   <div key={key}>
                     {fieldRefs &&
-                      fieldRefs.find((o: FieldReference) => {
-                        return o.name === key;
-                      }) ? (
+                    fieldRefs.find((o: FieldReference) => {
+                      return o.name === key;
+                    }) ? (
                       <Button
                         className="w-100"
                         variant="outline-danger"
                         onClick={() => {
                           handleErrorClicked(key);
                         }}
-                      >{`${messageString}`}</Button>
+                      >
+                        <small>{`${messageString}`}</small>
+                      </Button>
                     ) : (
-                      <a href={`#${key}`}>{`${messageString}`}</a>
+                      <small>
+                        <a href={`#${key}`}>{`${messageString}`}</a>
+                      </small>
                     )}
                     {/* <a href={`#${key}`}>{`${messageString}`}</a> */}
                     {/* <Button
@@ -85,4 +89,3 @@ export function FormErrors(props: IFormErrorsProps) {
     );
   } else return null;
 }
-

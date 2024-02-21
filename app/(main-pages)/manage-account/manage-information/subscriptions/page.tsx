@@ -1,5 +1,5 @@
-import { ManageSubscriptions } from "../../../../components/ManageSubscriptions";
-import { AccountLayout } from "../../../../layouts/AccountLayout";
+import { ManageSubscriptions } from "../../../../../app/components/ManageSubscriptions";
+import { AccountLayout } from "../../../../../app/layouts/AccountLayout";
 
 import { Metadata } from "next";
 

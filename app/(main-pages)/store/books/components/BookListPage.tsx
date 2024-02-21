@@ -1,15 +1,15 @@
 "use client";
 import { useEffect, useState } from "react";
+import { getPastContentFilterString } from "../../../../components/cms/utilities/ContentUtils";
+import { ProductList } from "../../../../components/ProductList";
+import { IContentListItem } from "../../../../components/ContentList/ContentListItem";
 import {
   CONTENT_TYPES,
   IPastContentFilter,
   PAST_CONTENT_DISPLAY_FORMATS,
 } from "../../../../types";
-import { ProductList } from "../../../../components/ProductList";
-import { IContentListItem } from "../../../../components/ContentList/ContentListItem";
-import { getPastContentFilterString } from "../../../../components/cms/utilities/ContentUtils";
 
-export interface IBookListPageProps { }
+export interface IBookListPageProps {}
 
 export function BookListPage(props: IBookListPageProps) {
   const [books, setBooks] = useState<IContentListItem[]>();
@@ -31,10 +31,8 @@ export function BookListPage(props: IBookListPageProps) {
             },
           }
         );
-        console.log(res);
         if (res.ok) {
           const content = await res.json();
-          console.log("content", content);
           setBooks(content);
         } else {
           console.error("RESPSONSE NOT OK", res);

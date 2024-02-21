@@ -1,0 +1,65 @@
+.last-messages-block {
+  a {
+    color: $white;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  h2 {
+    font-size: 2.875rem;
+    margin-bottom: 0.5rem;
+  }
+  h2 a {
+    color: $white;
+  }
+  p {
+    font-size: 1.25rem;
+    &.copy {
+      line-height: 1.5rem;
+      margin-top: 1rem;
+    }
+  }
+}
+
+.last-messages-banner {
+  .last-messages-banner-content {
+    text-align: center;
+    height: 800px;
+    @include media-breakpoint-up(md) {
+      text-align: left;
+      padding-top: 6rem;
+      padding-bottom: 4rem;
+      height: auto;
+    }
+    .last-messages-banner-content-row {
+      height: inherit;
+    }
+    .last-messages-banner-layout {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      /* height: 100%; */
+    }
+  }
+  .button-row {
+    padding-top: 2rem;
+  }
+  .watch-now-button-contents {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 2rem;
+    line-height: 2rem;
+    i {
+      @include media-breakpoint-up(md) {
+        font-size: 2rem;
+      }
+    }
+    span {
+      vertical-align: middle;
+      display: inline-block;
+      line-height: 2.75rem;
+    }
+  }
+}

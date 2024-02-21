@@ -2,7 +2,7 @@ import { ContentList } from "..";
 import {
   CONTENT_TYPES,
   PAST_CONTENT_DISPLAY_FORMATS,
-} from "../../../types";
+} from "../../../../app/types";
 import GrowingList from "../../GrowingList";
 import { IContentListItem } from "../ContentListItem";
 
@@ -17,7 +17,7 @@ export function PastMessages(props: IPastMessagesProps) {
   //     heading="Past Messages"
   //     contentType={CONTENT_TYPES.MESSAGE}
   //     viewAllLinkText="View all Messages"
-  //     viewAllLink="/watch/messages"
+  //     viewAllLink="/how-to-watch/messages"
   //     content={props.content}
   //   ></ContentList>
   // );

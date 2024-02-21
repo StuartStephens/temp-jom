@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import { redirect } from "next/navigation";
 import { ACOPageLayout } from "../../layouts/ACOPageLayout";
 
 export const metadata: Metadata = {

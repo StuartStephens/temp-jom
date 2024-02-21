@@ -212,7 +212,46 @@
       { "ContentType": "TodaysWordFormBlock" },
       { "ContentType": "RichTextRowBlock" },
       { "ContentType": "InspirationalMessageBlock" },
-      { "ContentType": "HighlightedNavigationBlock" }
+      {
+        "ContentType": "VideoRowBlock",
+        "ContentLinkExpanded": {
+          "Videos": [
+            {
+              "Id": "V_1",
+              "Caption": "Gabriella Conner Story",
+              "Video": {
+                "Url": "https://www.youtube.com/embed/v-XaMwEBibc"
+              },
+              "Heading": "Gabriella Conner Story",
+              "Description": {
+                "Data": "An incredible testimony of how a 10-year-old girl is overcoming her battle against autism – and how attending Lakewood Church and hearing the encouragement and hope found in Jesus Christ from Joel Osteen are changing her life."
+              }
+            },
+            {
+              "Id": "V_2",
+              "Caption": "Will and Kim Fuller Story",
+              "Video": {
+                "Url": "https://www.youtube.com/embed/DRuCMcuemo0"
+              },
+              "Heading": "Will and Kim Fuller Story",
+              "Description": {
+                "Data": "After a failed business and bankruptcy in 2004, Will and Kim Fuller were searching for a new financial path to take. Upon hearing a message from Joel in August 2007, Will realized it was time to begin again. Today, the Fullers operate a new business, a new journey of faith into the unknown with God by their side. They have learned that with God all things are possible. He can turn any situation around and give new direction to your life."
+              }
+            },
+            {
+              "Id": "V_3",
+              "Caption": "Vinny Forrez Story",
+              "Video": {
+                "Url": "https://www.youtube.com/embed/E_pwGAUuV4g"
+              },
+              "Heading": "Vinny Forrez Story",
+              "Description": {
+                "Data": "Vinny Forrez is one of the many volunteer firefighters who risked his life for the greater good of saving those in need as a first responder at Ground Zero. In his search for those in need of rescue, he became separated from his group and was all alone, trapped, where he describes as one being in the pit of hell. Yet just when he thought he was at the end of his life, God gave him hope."
+              }
+            }
+          ]
+        }
+      }
     ]
   },
   {

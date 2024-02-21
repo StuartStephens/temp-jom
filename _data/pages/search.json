@@ -1,0 +1,18 @@
+[
+  {
+    "id": "search",
+    "Name": "search",
+    "Title": "Search",
+    "ContentType": "Search",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://www.joelosteen.com/globalassets/images/jom/app-images/searchhero/large_display.png"
+      },
+      "Heading": "Search"
+    },
+    "MainContent": [
+      { "ContentType": "InPageNavigationBlock" },
+      { "ContentType": "AboutUsContentBlock" }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+.footer {
+  .app-and-social {
+    max-width: 100%;
+    @include media-breakpoint-up(md) {
+      max-width: min-content;
+    }
+    @include media-breakpoint-up(lg) {
+      max-width: min-content;
+    }
+  }
+
+  .footer-menu-group {
+    .text-truncate {
+      max-width: 165px;
+    }
+    .navbar-nav .nav-link {
+      text-transform: none;
+      font-weight: lighter;
+      font-family: $font-family-museo;
+    }
+    .navbar-brand,
+    .nav-item {
+      text-transform: uppercase;
+      font-family: $font-family-gothic;
+      letter-spacing: 0.05rem;
+    }
+    small {
+      font-size: small;
+    }
+  }
+}

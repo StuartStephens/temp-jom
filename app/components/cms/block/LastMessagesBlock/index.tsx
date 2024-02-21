@@ -1,4 +1,4 @@
-import { IMessage, ISpeaker } from "../../../../types";
+import { IMessage, ISpeaker } from "../../../../../app/types";
 import { LastMessages } from "../../../LastMessages";
 import { ILinkItemNode } from "../../types/core/CoreTypes";
 

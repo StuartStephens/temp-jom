@@ -1,5 +1,22 @@
 /*body tag will not inherit the theme, we only apply it at the main down*/
 
+$custom-colors: (
+  "linkColor": #{$linkColor},
+  "secondary": #{$secondary},
+  "tertiary": #{$tertiary},
+);
+
+@debug "secondary in overrides: #{$secondary}";
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+//@import "~bootstrap/scss/buttons";
+// @import "~bootstrap/scss/functions";
+// @import "~bootstrap/scss/accordion";
+
+.ff-gothic {
+  font-family: #{$font-family-gothic};
+}
+
 body {
   --bs-body-font-weight: 300;
 }
@@ -81,27 +98,29 @@ main {
   letter-spacing: 0.05rem;
 }
 
-.nav-tabs {
-  --bs-nav-tabs-border-radius: 0;
-  --bs-nav-tabs-border-width: 0;
-}
+.tab-menu {
+  &.nav-tabs {
+    --bs-nav-tabs-border-radius: 0;
+    --bs-nav-tabs-border-width: 0;
+  }
 
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
-  --bs-nav-tabs-link-active-color: $primary;
-  --bs-nav-tabs-link-active-bg: transparent;
-  --bs-nav-tabs-link-active-border-color: var(--bs-border-color)
-    var(--bs-border-color) var(--bs-body-bg);
-  border-bottom: 5px solid var(--bs-primary);
-}
+  &.nav-tabs .nav-link.active,
+  &.nav-tabs .nav-item.show .nav-link {
+    --bs-nav-tabs-link-active-color: $primary;
+    --bs-nav-tabs-link-active-bg: transparent;
+    --bs-nav-tabs-link-active-border-color: var(--bs-border-color)
+      var(--bs-border-color) var(--bs-body-bg);
+    border-bottom: 5px solid var(--bs-primary);
+  }
 
-.nav-tabs .nav-link {
-  text-transform: uppercase;
-  font-weight: bold;
-  // font-family: museo;
-  &:hover {
-    border-bottom: 5px solid var(--bs-secondary);
-    color: var(--bs-primary);
+  &.nav-tabs .nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    // font-family: museo;
+    &:hover {
+      border-bottom: 5px solid var(--bs-secondary);
+      color: var(--bs-primary);
+    }
   }
 }
 

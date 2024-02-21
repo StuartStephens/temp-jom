@@ -1,0 +1,539 @@
+[
+  {
+    "id": "contact-us",
+    "Name": "contact-us",
+    "Title": "Contact Us",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://joelosteen.com/globalassets/Images/Jom/Footer/general_hero_hires-jpg/LargeDisplay.jpg"
+      },
+      "Heading": "Contact Us"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-contact-us",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
+  },
+  {
+    "id": "email-us",
+    "Name": "email-us",
+    "Title": "Email Us",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://joelosteen.com/globalassets/Images/Jom/Footer/general_hero_hires-jpg/LargeDisplay.jpg"
+      },
+      "Heading": "Email Us"
+    },
+    "MainContent": [
+      {
+        "ContentType": "ContactUsInstructionsBlock",
+        "ContentLinkExpanded": {
+          "Instructions": {
+            "Data": "To contact Joel Osteen Ministries by email, fill out the form below with your question or comment and submit. Your email will be forwarded to the appropriate department for a response. Thank you for contacting us!"
+          },
+          "Links": [
+            { "Href": "#Roku", "Title": "Roku", "Name": "Roku" },
+            { "Href": "#YouTube", "Title": "YouTube", "Name": "YouTube" },
+            { "Href": "#ITunes", "Title": "ITunes", "Name": "ITunes" }
+          ]
+        }
+      },
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-contact-us",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": null,
+          "Heading2": "",
+          "Speaker": null,
+          "BodyCopy": {
+            "Data": "To contact Joel Osteen Ministries by email, fill out the form below with your question or comment and submit. Your email will be forwarded to the appropriate department for a response. Thank you for contacting us!"
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "contactenos",
+    "Name": "contactenos",
+    "Title": "Contactenos",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://joelosteen.com/globalassets/Images/Jom/Footer/general_hero_hires-jpg/LargeDisplay.jpg"
+      },
+      "Heading": "Contactenos"
+    },
+    "MainContent": [
+      {
+        "ContentType": "ContactUsInstructionsBlock",
+        "ContentLinkExpanded": {
+          "Instructions": {
+            "Data": "To contact Joel Osteen Ministries by email, fill out the form below with your question or comment and submit. Your email will be forwarded to the appropriate department for a response. Thank you for contacting us!"
+          },
+          "Links": [
+            { "Href": "#Roku", "Title": "Roku", "Name": "Roku" },
+            { "Href": "#YouTube", "Title": "YouTube", "Name": "YouTube" },
+            { "Href": "#ITunes", "Title": "ITunes", "Name": "ITunes" }
+          ]
+        }
+      },
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-contact-us",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": null,
+          "Heading2": "",
+          "Speaker": null,
+          "BodyCopy": {
+            "Data": "Muchas gracias por tu interés en Joel Osteen Ministries. Por favor llena la forma abajo con tu información o comentario. ¡Queremos saber de ti!"
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "contact-info",
+    "Name": "contact-info",
+    "Title": "Contact Info",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://joelosteen.com/globalassets/Images/Jom/Footer/general_hero_hires-jpg/LargeDisplay.jpg"
+      },
+      "Heading": "Contact Info"
+    },
+    "MainContent": [
+      {
+        "ContentType": "ContactUsInstructionsBlock",
+        "ContentLinkExpanded": {
+          "Instructions": {
+            "Data": "To contact Joel Osteen Ministries by email, fill out the form below with your question or comment and submit. Your email will be forwarded to the appropriate department for a response. Thank you for contacting us!"
+          },
+          "Links": [
+            { "Href": "#Roku", "Title": "Roku", "Name": "Roku" },
+            { "Href": "#YouTube", "Title": "YouTube", "Name": "YouTube" },
+            { "Href": "#ITunes", "Title": "ITunes", "Name": "ITunes" }
+          ]
+        }
+      },
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-contact-us",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "frequently-asked-questions",
+    "Name": "frequently-asked-questions",
+    "Title": "Frequently Asked Questions",
+    "ContentType": "STANDARD",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://joelosteen.com/globalassets/Images/Jom/Footer/general_hero_hires-jpg/LargeDisplay.jpg"
+      },
+      "Heading": "Frequently Asked Questions"
+    },
+    "MainContent": [
+      {
+        "ContentType": "ContactUsInstructionsBlock",
+        "ContentLinkExpanded": {
+          "Instructions": {
+            "Data": "To contact Joel Osteen Ministries by email, fill out the form below with your question or comment and submit. Your email will be forwarded to the appropriate department for a response. Thank you for contacting us!"
+          },
+          "Links": [
+            { "Href": "#Roku", "Title": "Roku", "Name": "Roku" },
+            { "Href": "#YouTube", "Title": "YouTube", "Name": "YouTube" },
+            { "Href": "#ITunes", "Title": "ITunes", "Name": "ITunes" }
+          ]
+        }
+      },
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-contact-us",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "QuestionAndAnswerGroupBlock",
+        "ContentLinkExpanded": {
+          "Heading": "General",
+          "QuestionsAndAnswers": [
+            {
+              "Question": "When will Joel and Victoria Osteen be in my area?",
+              "Answer": {
+                "Data": "<p>Joel and Victoria Osteen travel throughout the year.</p><p>Please check the&nbsp;<a href=\"/events\" target=\"_blank\" rel=\"noopener\">Events Page</a>&nbsp;to see where they will be in the upcoming months.</p>"
+              }
+            },
+            {
+              "Question": "How do I become a Christian?",
+              "Answer": {
+                "Data": "<p>The scripture says, \"Whoever calls upon the name of the Lord will be saved.\" If you would like to know Christ, all you have to do is receive the free gift of salvation through Jesus Christ by saying a prayer of salvation. Pray this aloud: \"Lord Jesus, I repent of my sins. Come into my heart. Wash me clean. I make you my Lord and Savior, Amen.\" We believe that if you prayed that simple prayer, you have been born again. You are starting with a clean slate, and you have entered into a personal relationship with Jesus Christ. Keep God first place in your life. Learn to pray; prayer is simply talking to God like you would talk to a friend. Mark today's date, write it down in your Bible – this is the day of new beginnings in your life!</p>"
+              }
+            },
+            {
+              "Question": "I have a question for Joel and Victoria Osteen. Can I email them?",
+              "Answer": {
+                "Data": "<p>While Joel and Victoria Osteen are not available via email, they do welcome letters directed to our office. They receive many letters every day, and we would encourage you to put any thoughts you have to them through the postal system.</p><p>Our address is:<br>Joel Osteen Ministries<br>P.O. Box 4600<br>Houston, TX 77210</p>"
+              }
+            },
+            {
+              "Question": "How can I submit a change of address?",
+              "Answer": {
+                "Data": "<p>You may change your address by calling 1-800-278-0520 or sign in to your JoelOsteen.com account and update your primary address in your account information.</p>"
+              }
+            },
+            {
+              "Question": "I am receiving duplicate mailings.",
+              "Answer": {
+                "Data": "<p>To stop duplicate mailings, please contact our ministry support team at 1-800-278-0520.</p>"
+              }
+            },
+            {
+              "Question": "How can I be removed from your mailing list?",
+              "Answer": {
+                "Data": "<p>If you wish to be removed from our mailing list, please call 1-800-278-0520 or change your settings through your account settings.</p>"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "QuestionAndAnswerGroupBlock",
+        "ContentLinkExpanded": {
+          "Heading": "Television Broadcast",
+          "QuestionsAndAnswers": [
+            {
+              "Question": "Can I order the message that is on television this week?",
+              "Answer": {
+                "Data": "<p>The messages aired on our television broadcasts are available at all times. You may order the message by either calling our ministry support team at 1-888-567-JOEL or ordering from our&nbsp;<a href=\"/how-to-watch/broadcasts\" target=\"_blank\" rel=\"noopener\">Broadcast page.</a></p>"
+              }
+            },
+            {
+              "Question": "Can I watch the broadcast online?",
+              "Answer": {
+                "Data": "<p>You can watch up to five messages online at any time if you are logged in to your JoelOsteen.com account. If you are a Champion of Hope Partner, you can watch our full archive of videos at any time.</p>"
+              }
+            },
+            {
+              "Question": "Do you broadcast in my area?",
+              "Answer": {
+                "Data": "<p>Our broadcast is available worldwide. We have listings available in the broadcast section of our site to find where we broadcast in your area.</p>"
+              }
+            },
+            {
+              "Question": "Can I get a transcript of one of the broadcasts?",
+              "Answer": {
+                "Data": "<p>Unfortunately, we do not have transcripts available at this time.</p>"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "QuestionAndAnswerGroupBlock",
+        "ContentLinkExpanded": {
+          "Heading": "Internet Help",
+          "QuestionsAndAnswers": [
+            {
+              "Question": "My Adobe Flash player appears to be working. However, I cannot see your Flash version. Any suggestions?",
+              "Answer": {
+                "Data": "<p>Download and run Adobe's latest Flash player:&nbsp;<a href=\"https://get.adobe.com/flashplayer/\" target=\"_blank\" rel=\"noopener noreferrer\">http://get.adobe.com/flashplayer/</a>&nbsp;</p>"
+              }
+            },
+            {
+              "Question": "The video I was viewing on the website stopped playing before it was completely finished.",
+              "Answer": {
+                "Data": "<p>The audio and video streams usually take a few minutes to completely finish loading, or \"buffer.\" If the video never seems to play completely or smoothly, please check your internet connection's speed. Though our video streams will work on slower connections given the time, a high-speed internet connection is recommended.</p>"
+              }
+            },
+            {
+              "Question": "None of these responses have correctly answered my question or solved my problem.",
+              "Answer": {
+                "Data": "<p>Please email&nbsp;<a href=\"mailto:info@joelosteen.com?\">info@joelosteen.com</a>&nbsp;with as much information as you can about the problem you are experiencing, including your operating system and web browser version.</p>"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "QuestionAndAnswerGroupBlock",
+        "ContentLinkExpanded": {
+          "Heading": "Events",
+          "QuestionsAndAnswers": [
+            {
+              "Question": "How can I volunteer at an event?",
+              "Answer": {
+                "Data": "<p>Volunteers for our events are pulled from partner churches in the area to which we are coming. If you would like to know which churches are connected with us through partnership in your area, visit our Find a Church page for more information.</p>"
+              }
+            },
+            {
+              "Question": "How long does the event last?",
+              "Answer": {
+                "Data": "<p>Night of Hope events last 2 to 2 1/2 hours and are filled with praise and worship music, encouragement from Victoria Osteen, special guests, and an inspiring message from Joel Osteen. There is no intermission.</p>"
+              }
+            },
+            {
+              "Question": "Do you have childcare at your events?",
+              "Answer": {
+                "Data": "<p>We do not have childcare available at our Night of Hope events at this time.</p>"
+              }
+            },
+            {
+              "Question": "Will there be special seating reserved with wheelchair access?",
+              "Answer": {
+                "Data": "<p>All of our Night of Hope events are ADA compliant. When you purchase your tickets for the event online or at the venue box office, be sure to purchase the appropriate ticket for your needs.</p>"
+              }
+            },
+            {
+              "Question": "How can I be assured that I am buying a valid ticket to a Night of Hope event?",
+              "Answer": {
+                "Data": "<p>Joel Osteen Ministries and the venue's authorized ticketing company do everything possible to make the purchase process fair, efficient, and user-friendly. The efficiencies of these authorized systems enable tickets to be sold very quickly, especially for tickets in high demand.</p><p>Please understand that preferential treatment is not extended to any group of consumers when tickets are placed on sale to the general public.</p><p>Unfortunately, we have little control over patron conduct after their purchase request is fulfilled. However, we reserve the right to block access to or cancel a ticket order of any user:</p><p>&nbsp;</p><ol><li>utilizing automated means to process or place ticket orders fraudulently, or</li><li>whose ticket order exceeds the stated limit</li></ol><p>While some states have laws that deal with scalping, those laws are rarely enforced. We take reports of misconduct of users, third-party advertisers, service providers, or product providers seriously, and those reports and feedback are immediately directed to the group(s) responsible to investigate and take appropriate action.</p><p>On some occasions, the tickets you see posted on unauthorized resale sites do not actually exist, and the seller has posted the ad in hopes of securing a buyer and being able to secure tickets located in the section advertised. Quite often the tickets do not materialize, and the defrauded buyer ends up receiving invalid tickets or tickets located much farther from the stage than what was originally offered in the seller's ad. Most resellers operate multiple websites and/or post the same tickets on different resale sites all across the country. Purchasing event tickets and/or participating in the process of purchasing through resellers exposes a buyer to great risk of being defrauded.</p><p>For your protection, we encourage you to purchase tickets only from the venue box office and/or the authorized ticketing company. That is the only way a consumer can be assured that they are buying an authentic, valid ticket. In addition, we strongly discourage people from purchasing tickets for more than the $15 face value.</p>"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "QuestionAndAnswerGroupBlock",
+        "ContentLinkExpanded": {
+          "Heading": "Ordering",
+          "QuestionsAndAnswers": [
+            {
+              "Question": "Can I send in a check instead of using a credit card?",
+              "Answer": {
+                "Data": "<p>To order by check, you can either call one of our ministry representatives at 1-888-567-JOEL, or feel free to order any resources via mail. Simply list the items you would like to purchase and include as much description of the product as possible (i.e., hardback book of&nbsp;<em>Every Day a Friday</em>&nbsp;by Joel Osteen) and send it in along with a check including the shipping and handling. Our mailing address is:</p><p>Joel Osteen Ministries<br>P.O. Box 4600<br>Houston, TX 77210</p>"
+              }
+            },
+            {
+              "Question": "How can I find out my order status?",
+              "Answer": {
+                "Data": "<p>Sign in to your JoelOsteen.com account and visit your account info section. You can look up order history and status there, or call 1-800-278-0520, and our ministry support team will be happy to help you determine your order status.</p>"
+              }
+            },
+            {
+              "Question": "Can I make a change to my internet order?",
+              "Answer": {
+                "Data": "<p>Unfortunately, we cannot make changes to internet orders once they are submitted.</p>"
+              }
+            },
+            {
+              "Question": "Can I cancel the internet order I just placed?",
+              "Answer": {
+                "Data": "<p>Internet orders are usually processed the same business day, depending on the time the order was placed. If the order has not yet been shipped, we can cancel the order. Please call 1-800-278-0520 to cancel the order.</p>"
+              }
+            },
+            {
+              "Question": "Why do I have to enter a password at the end of my order?",
+              "Answer": {
+                "Data": "<p>The password at the end of your order is used when checking your Account History in the online store. You will be prompted to enter your email address and the optional password to view your past orders.</p>"
+              }
+            },
+            {
+              "Question": "I checked my Order History, but some of my orders are missing.",
+              "Answer": {
+                "Data": "<p>There could be a few reasons why the orders are not appearing. Usually it is because the missing orders were made with either a different email address and password or your order was not placed online.</p>"
+              }
+            },
+            {
+              "Question": "Can I receive a bulk discount?",
+              "Answer": {
+                "Data": "<p>Due to the array of resources we carry, we are unable to offer bulk discounts across the board. However, we do consider bulk discounts upon request. If you would like us to consider a bulk discount, please call 1-800-278-0520 and speak to one of our ministry support team members.</p>"
+              }
+            },
+            {
+              "Question": "I just received my package, but it is either missing something or it isn't what I ordered.",
+              "Answer": {
+                "Data": "<p>Check the packing slip that came with your package to make sure the information is correct and that nothing is on back order. If something is missing or a product came that wasn't ordered, please call 1-800-278-0520, and we will look into the problem.</p>"
+              }
+            },
+            {
+              "Question": "The resource that I ordered is damaged or defective.",
+              "Answer": {
+                "Data": "<p>We are more than happy to replace damaged or defective products. Please call 1-800-278-0520 with information about the defective item, and we will send you a replacement.</p>"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "QuestionAndAnswerGroupBlock",
+        "ContentLinkExpanded": {
+          "Heading": "Donation / Partnership",
+          "QuestionsAndAnswers": [
+            {
+              "Question": "How can I make a donation to the ministry?",
+              "Answer": {
+                "Data": "<p>Donations to the ministry may be made online, by mail, or by calling 1-888-567-JOEL. Only credit card donations can be taken online or over the phone.</p>"
+              }
+            },
+            {
+              "Question": "Do you issue monthly and/or year-end receipts?",
+              "Answer": {
+                "Data": "<p>Yes. Year-end receipts are mailed in January, and daily receipts are sent as orders are processed.</p>"
+              }
+            },
+            {
+              "Question": "I can't find my year-end receipt. How do I get another one?",
+              "Answer": {
+                "Data": "<p>You may request another year-end receipt by calling 1-800-278-0520.</p>"
+              }
+            },
+            {
+              "Question": "What is the Champion of Hope Partnership program?",
+              "Answer": {
+                "Data": "<p>The vision of this ministry is to use every avenue available to present hope to people in need, to make a difference in the lives of those we touch with the transforming power of the Gospel. To reach the lost, encourage and equip believers, strengthen relationships, and spread the message of hope in Christ is the purpose of every media, ministry, or missions outreach.<br><br>Partnership with purpose makes this possible. Through your faithful and consistent support, you become an expression of God's heart to people without hope. And when you partner with us as a Champion of Hope, you share in the blessings, the eternal rewards, and the fulfillment of what God is doing throughout the earth. Miracles happen for others and for you. Because of your generosity, God's favor and goodness become a part of your life too.<br><br>For more information, please visit our <a href=\"/why-give\" target=\"_blank\" rel=\"noopener\">Give page</a>.</p>"
+              }
+            },
+            {
+              "Question": "How can I become a Champion of Hope Partner?",
+              "Answer": {
+                "Data": "<p>Partners usually support this ministry by giving each month. You may send in a check, mail or call in a credit card payment, or we can automatically withdraw the amount from a credit card or checking account each month.</p><p>To become a Champion of Hope Partner or for more information, please call 1-888-567-JOEL, or visit our Give page on the website.</p>"
+              }
+            },
+            {
+              "Question": "Can I donate electronically from my checking account or credit card?",
+              "Answer": {
+                "Data": "<p>Yes. Champion of Hope Partners may set up their account to have automatic withdrawal from a checking account or credit card, or they may call or mail in their donation each month.</p>"
+              }
+            },
+            {
+              "Question": "Can the Partnership messages be made available in MP3 or MP4 format?",
+              "Answer": {
+                "Data": "<p>The partner resources are currently only available in CD format. We are planning on making an MP3 and MP4 option available in the near future.</p>"
+              }
+            },
+            {
+              "Question": "I haven't received a partner resource in a while. What do I do?",
+              "Answer": {
+                "Data": "<p>If you have stopped receiving partner resources by mail, please contact our ministry support team representatives at 1-800-278-0520.</p>"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "ContentType": "QuestionAndAnswerGroupBlock",
+        "ContentLinkExpanded": {
+          "Heading": "Copyright",
+          "QuestionsAndAnswers": [
+            {
+              "Question": "What is your policy concerning copying and distributing Joel Osteen Ministries materials?",
+              "Answer": {
+                "Data": "<p>Unfortunately, due to intricate legalities concerning copyright licensing, we are unable to grant permission to copy and distribute our products. This includes cassettes, CDs, MP3s, DVDs, MP4s, videos, and booklets.</p><p>Many of Joel Osteen's books are from various publishers. These publishers hold the duplication rights to the books and must be contacted for copy permission.</p>"
+              }
+            },
+            {
+              "Question": "Whom may I contact concerning a special copyright request?",
+              "Answer": {
+                "Data": "<p>Any further copyright questions may be submitted through our Contact Form or be mailed to:</p><p>Legal Department<br>c/o Joel Osteen Ministries<br>P.O. Box 4600<br>Houston, TX 77210</p>"
+              }
+            },
+            {
+              "Question": "Can we place a link on our website to your website?",
+              "Answer": {
+                "Data": "<p>Joel Osteen Ministries is happy to grant permission to place a link to our website from your website.</p>"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

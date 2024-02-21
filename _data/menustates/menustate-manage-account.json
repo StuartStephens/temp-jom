@@ -49,6 +49,23 @@
       "Target": "_NEW",
       "Text": "Transaction History",
       "Title": "Transaction History"
+    },
+    {
+      "id": "church-info",
+      "Href": "/manage-account/church-info",
+      "IsDefault": false,
+      "IsSelected": false,
+      "Level": 2,
+      "Name": "church-info",
+      "ParentName": "ACCOUNT",
+      "ShowWhenLoggedIn": true,
+      "ShowWhenLoggedOut": false,
+      "DisableWhenLoggedIn": false,
+      "DisableWhenLoggedOut": false,
+      "RequiredRoles": ["ChurchAdmin"],
+      "Target": "_NEW",
+      "Text": "Church Info",
+      "Title": "Church Info"
     }
   ]
 }

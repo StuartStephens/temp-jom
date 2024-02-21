@@ -103,9 +103,12 @@ export default function Page() {
 
                     <hr />
 
-                    <a href="/how-to-watch/messages" className="uppercase float-right mt-4 text-blue-600 font-bold">View all messages</a>
-                    <h3>Related Messages</h3>
-                    <div className="flex">
+                    <div className="flex justify-between items-center">
+                        <h5 className="my-6 text-3xl font-light">Related Messages</h5>
+                        <a href="/how-to-watch/messages" className="uppercase float-right text-blue-600 font-bold">View all messages</a>
+                    </div>
+
+                    <div className="flex clear-both">
                         {relatedVideos.map((video: any) => (
                             <a key={video.id} href={`/how-to-watch/messages/${new Date(video.availableDate).getUTCFullYear()}/${(`0${new Date(video.availableDate).getUTCMonth() + 1}`).slice(-2)}/${(`0${new Date(video.availableDate).getUTCDate()}`).slice(-2)}?id=${video.pid}`}
                                 className="mx-2"
@@ -121,7 +124,7 @@ export default function Page() {
 
                                 <div className=" font-medium">
                                     <div className="flex flex-row justify-between items-start">
-                                        <h4 className="mb-1 mt-0 font-medium text-lg">{video.metadata.messageTitle}</h4>
+                                        <h4 className="mb-1 mt-0 font-medium text-2xl">{video.metadata.messageTitle}</h4>
                                         <div className="float-right i-mdi-bookmark-outline" ></div>
                                     </div>
                                     <div className="text-sm">{video.bios.speakers[0]}&apos;s message #{video.episode}</div>

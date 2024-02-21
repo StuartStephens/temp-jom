@@ -1,5 +1,6 @@
 import { APIError, ICountryDetail, IStateDetail } from "../Common/CommonTypes";
 import { IContact } from "../../contexts/Common/TransactionDetailsTypes";
+import { IChurch } from "../../components/FindChurchesContainer/SearchForChurch";
 
 export interface IContactInformationAPIResult {
   success: boolean;
@@ -87,7 +88,7 @@ export type IContactInformation = {
   AuthToken: string;
   RedirectUrl: string;
   DefaultCurrency: string;
-  AdminChurches: any;
+  AdminChurches?: IChurch[];
 };
 
 export type IDashboardHero = {

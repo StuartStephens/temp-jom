@@ -166,5 +166,46 @@
       { "ContentType": "InspirationalMessageBlock" },
       { "ContentType": "HighlightedNavigationBlock" }
     ]
+  },
+  {
+    "id": "church-info",
+    "Name": "church-info",
+    "Title": "church-info",
+    "ContentType": "STANDARD",
+    "AccountHero": {
+      "DesktopImage": {
+        "Url": "https://int.joelosteen.com/globalassets/images/jom/our-ministry/jom_ourministry/largedisplay.jpg"
+      },
+      "Heading": "Church Info"
+    },
+    "MainContent": [
+      {
+        "ContentType": "InPageNavigationBlock",
+        "MenuStateId": "state-manage-account",
+        "ContentLinkExpanded": {
+          "LinkCollection": [
+            {
+              "Href": "",
+              "Title": "",
+              "Target": "",
+              "Text": "",
+              "ContentLink": {
+                "Expanded": {
+                  "Name": ""
+                }
+              }
+            }
+          ]
+        }
+      },
+      { "ContentType": "AboutUsContentBlock" },
+      { "ContentType": "FullWidthImageRowBlock" },
+      { "ContentType": "LastMessagesBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "TodaysWordFormBlock" },
+      { "ContentType": "RichTextRowBlock" },
+      { "ContentType": "InspirationalMessageBlock" },
+      { "ContentType": "HighlightedNavigationBlock" }
+    ]
   }
 ]

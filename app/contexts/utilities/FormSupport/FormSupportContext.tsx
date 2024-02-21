@@ -9,13 +9,13 @@ import {
   useState,
 } from "react";
 import { Container } from "react-bootstrap";
-import { ICountryDetail } from "../../../contexts/Common/CommonTypes";
 import { IAddressForm } from "../../../components/AddressForm";
 import { IChangePasswordForm } from "../../../components/ChangePassword";
 import { LoadingSpinner } from "../../../components/LoadingSpinner";
-import { useAccountInfoContext } from "../../../contexts/AccountInformationContext/AccountInformationContext";
-import { useAuth } from "../../../contexts/Auth/Context";
 import { ISelectOption } from "../../../layouts/FormGeneratorLayout/FormGeneratorSelect";
+import { useAccountInfoContext } from "../../AccountInformationContext/AccountInformationContext";
+import { useAuth } from "../../Auth/Context";
+import { ICountryDetail } from "../../Common/CommonTypes";
 import {
   DSProvider,
   DSReducer,
@@ -40,6 +40,7 @@ import {
   VALIDATION_TYPES,
   ValidationProp,
 } from "./FormSupportTypes";
+import { formatYear } from "../FormatUtils";
 
 export interface IErrorResponse {
   Message?: string;
@@ -112,7 +113,7 @@ interface FormSupportProviderProps {
 export function FormSupportProvider({
   children,
 }: // defaultForm,
-  FormSupportProviderProps) {
+FormSupportProviderProps) {
   const { countries } = useAccountInfoContext();
   const { fetchAPI } = useAuth();
   const [isInitialized, setIsInitialized] = useState<boolean>(false);
@@ -368,7 +369,6 @@ export function FormSupportProvider({
             }
             break;
           case VALIDATION_TYPES.ACO_DONATION_OTHER_AMOUNT:
-            console.log("amount", form);
             const parsedValue: number = parseInt(state.form.otherAmount);
             if (
               (!value || value === "" || isNaN(parsedValue)) &&
@@ -453,16 +453,33 @@ export function FormSupportProvider({
             break;
           case VALIDATION_TYPES.PHONE_NUMBER:
             function isValidPhoneNumber(value: string): boolean {
-              var re = /^\(?(\d{1})[- ]?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
-              // var re = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+              // var re = new RegExp(
+              //   `1?\W*([2-9][0-8][0-9])\W*([2-9][0-9]{2})\W*([0-9]{4})(\se?x?t?(\d*))?`
+              // );
+              //var re = /^\(?(\d{1})[- ]?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+              var re = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+              //var re = \d{3}-\d{3}-\d{4};
               return re.test(value);
             }
-            if (!value || value === "" || !isValidPhoneNumber(value)) {
+            if (!isValidPhoneNumber(value)) {
               newError = {
                 name: fieldName,
                 message: prop.message,
               };
             }
+            break;
+          case VALIDATION_TYPES.VALID_YEAR:
+            function isValidYear(value: string): boolean {
+              if (!value || value.trim() == "") return true; //if nothing provided, then do not validated
+              return !!value && "Invalid Date" !== formatYear(value);
+            }
+            if (value.length !== 4 || !isValidYear(value)) {
+              newError = {
+                name: fieldName,
+                message: prop.message,
+              };
+            }
+
             break;
 
           default:
@@ -554,7 +571,7 @@ export function FormSupportProvider({
           throw new Error(
             "formSubmitProvider ERROR--",
             errorData.ExceptionMessage ||
-            `HTTP error! status: ${response.status}`
+              `HTTP error! status: ${response.status}`
           );
         }
 
@@ -739,6 +756,8 @@ export function FormSupportProvider({
                 </h2> */}
               </div>
             )}
+
+            {/* {JSON.stringify(form)} */}
             {children}
           </Container>
         </Container>
@@ -757,4 +776,3 @@ export function useFormSupportContext(): FormSupportContextData {
   }
   return context;
 }
-

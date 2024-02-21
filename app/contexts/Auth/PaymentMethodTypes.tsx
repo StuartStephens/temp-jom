@@ -64,23 +64,22 @@ export const CREDIT_CARD_TYPES = new Map<string, CreditCardType>([
   ],
   [
     CREDIT_CARD_NAMES.MASTERCARD,
-    { name: "Visa", imageUrl: CREDIT_CARD_BRAND_IMAGES.MASTERCARD },
+    { name: "MasterCard", imageUrl: CREDIT_CARD_BRAND_IMAGES.MASTERCARD },
   ],
   [
     CREDIT_CARD_NAMES.AMEX,
-    { name: "Visa", imageUrl: CREDIT_CARD_BRAND_IMAGES.AMEX },
+    { name: "AmericanExpress", imageUrl: CREDIT_CARD_BRAND_IMAGES.AMEX },
   ],
   [
     CREDIT_CARD_NAMES.DISCOVER,
-    { name: "Visa", imageUrl: CREDIT_CARD_BRAND_IMAGES.DISCOVER },
+    { name: "Discover", imageUrl: CREDIT_CARD_BRAND_IMAGES.DISCOVER },
   ],
   [
     CREDIT_CARD_NAMES.OTHER,
-    { name: "Visa", imageUrl: CREDIT_CARD_BRAND_IMAGES.OTHER },
+    { name: "Other", imageUrl: CREDIT_CARD_BRAND_IMAGES.OTHER },
   ],
   [
     CREDIT_CARD_NAMES.PAYPAL,
-    { name: "Visa", imageUrl: CREDIT_CARD_BRAND_IMAGES.PAYPAL },
+    { name: "Paypal", imageUrl: CREDIT_CARD_BRAND_IMAGES.PAYPAL },
   ],
 ]);
-

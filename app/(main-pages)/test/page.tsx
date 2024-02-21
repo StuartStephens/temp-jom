@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { LoginDialog } from "../../components/authentication/LoginDialog";
+import { LoginDialog } from "../../../app/components/authentication/LoginDialog";
 
 export const metadata: Metadata = {
   title: "Test Page",

@@ -24,7 +24,6 @@ export function ComponentTree(props: IComponentTreeProps) {
   useLayoutEffect(() => {
     async function getMenu() {
       const params = await generateStaticParams();
-      console.log("params", params);
       setComponents(params);
     }
     getMenu();

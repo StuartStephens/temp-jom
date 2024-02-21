@@ -1,18 +1,6 @@
 import { Metadata } from "next";
-import Banner from "../../components/shared/Banner/Banner";
-import {
-  PAGE_GUTTER,
-  PageGutterLayout,
-} from "../../components/shared/layouts/PageGutterLayout";
 import { IXHTMLString } from "../../components/cms/types/core/CoreTypes";
 import { IBlog, ISpeaker } from "../../types";
-import { FeaturedBlogs } from "../../components/FeaturedBlog";
-import { LastMessages } from "../../components/LastMessages";
-import { LastMessagesBlock } from "../../components/cms/block/LastMessagesBlock";
-import FeaturedContentCarousel from "../../components/FeaturedContentCarousel";
-import { FeaturedContentCarouselBlock } from "../../components/cms/block/FeaturedContentCarouselBlock";
-// import { CommunityLayout } from "../../../src/layouts/CommunityLayout";
-import { Community } from "../../components/Community";
 
 export const metadata: Metadata = {
   title: "Joel Osteen Ministries",

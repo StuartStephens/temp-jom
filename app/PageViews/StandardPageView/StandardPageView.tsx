@@ -1,10 +1,9 @@
 "use client";
 import { ReactNode } from "react";
 import { Container } from "react-bootstrap";
-import { usePageDataContext } from "../../contexts/PageContext/Context";
-import { useUIStateContext } from "../../contexts/UIStateContext/Context";
+import { usePageDataContext } from "../../../app/contexts/PageContext/Context";
+import { useUIStateContext } from "../../../app/contexts/UIStateContext/Context";
 import { GenericPageBanner } from "../../components/GenericPageBanner";
-import { IBannerProps } from "../../components/shared/Banner/Banner";
 import {
   IPageViewProps,
   getBannerClassNameByPageData,
@@ -12,6 +11,7 @@ import {
 } from "../PageViewUtils";
 import { MainContents } from "../MainContents";
 import { Footer } from "../../components/Footer";
+import { IBannerProps } from "@/components/shared/Banner/Banner";
 
 export interface IStandardPageViewProps extends IPageViewProps {
   children: ReactNode;
@@ -26,10 +26,9 @@ export function StandardPageView(props: IStandardPageViewProps) {
     backgroundImgUrl: pageData?.GenericHero?.DesktopImage?.Url,
     className: getBannerClassNameByPageData(pageData),
   } as IBannerProps;
-  console.log(pageData, "page data");
 
   return (
-    <Container fluid className="full-width standard-content ">
+    <Container fluid className="full-width standard-content">
       {pageData && pageData?.GenericHero && (
         <GenericPageBanner
           bannerProps={bannerProps}

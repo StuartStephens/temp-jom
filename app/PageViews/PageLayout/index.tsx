@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { PageDataProvider } from "../../contexts/PageContext/Context";
+import { PageDataProvider } from "../../../app/contexts/PageContext/Context";
 import { IPageData, getPageData } from "../PageViewUtils";
 import { StandardPageView } from "../StandardPageView/StandardPageView";
 
@@ -14,7 +14,6 @@ export async function PageLayout(props: IPageLayoutProps) {
 
   const pageData: IPageData | undefined = await getPageData(activePageId)
     .then((data) => {
-      console.log(data, "page data");
       return data;
     })
     .catch((e) => {

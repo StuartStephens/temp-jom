@@ -2,14 +2,19 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 import Banner from "../../../../../components/shared/Banner/Banner";
 import Link from "next/link";
-import { useUIStateContext } from "../../../../../contexts/UIStateContext/Context";
 import { JOMButtonLink } from "../../../../../components/shared/controls/JOMButtonLink";
+import { useUIStateContext } from "../../../../../contexts/UIStateContext/Context";
+import { useAuth } from "../../../../../contexts/Auth/Context";
+import { LoginRequired } from "../../../../../components/LoginRequired";
 
-export interface IDashboardProps { }
+export interface IDashboardProps {}
 
 export function DashboardContents(props: IDashboardProps) {
   const { dispatch } = useUIStateContext();
-  return (
+  const { checkIsLoggedIn } = useAuth();
+  return !checkIsLoggedIn() ? (
+    <LoginRequired />
+  ) : (
     <Container fluid className="dashboard-layout full-width px-5">
       <Row>
         <Col
@@ -63,21 +68,21 @@ export function DashboardContents(props: IDashboardProps) {
                   >
                     <Button
                       variant="outline-light"
-                    // onClick={() => {
-                    //   dispatch({
-                    //     type: "setSelectedMenus",
-                    //     payload: [
-                    //       {
-                    //         menuStateName: "ACCOUNT_MENU",
-                    //         menuItemName: "manage-information",
-                    //       },
-                    //       {
-                    //         menuStateName: "ACCOUNT_TERTIARY",
-                    //         menuItemName: "manage-donations",
-                    //       },
-                    //     ],
-                    //   });
-                    // }}
+                      // onClick={() => {
+                      //   dispatch({
+                      //     type: "setSelectedMenus",
+                      //     payload: [
+                      //       {
+                      //         menuStateName: "ACCOUNT_MENU",
+                      //         menuItemName: "manage-information",
+                      //       },
+                      //       {
+                      //         menuStateName: "ACCOUNT_TERTIARY",
+                      //         menuItemName: "manage-donations",
+                      //       },
+                      //     ],
+                      //   });
+                      // }}
                     >
                       Manage Recurring Donations
                     </Button>

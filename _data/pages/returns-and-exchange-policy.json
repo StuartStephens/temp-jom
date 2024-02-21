@@ -1,0 +1,58 @@
+[
+  {
+    "id": "returns-and-exchange-policy",
+    "Name": "returns-and-exchange-policy",
+    "Title": "Returns and Exchange Polict",
+    "ContentType": "ReturnsAndExchangePolicyPage",
+    "GenericHero": {
+      "DesktopImage": {
+        "Url": "https://www.joelosteen.com/globalassets/Images/Jom/Footer/general_hero_hires-jpg/LargeDisplay.jpg"
+      },
+      "Heading": "Returns and Exchange Policy"
+    },
+    "MainContent": [
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": null,
+          "Heading2": null,
+          "Speaker": null,
+          "BodyCopy": {
+            "Data": "In the event that you need to return or exchange product, please contact Customer Service and note the following:"
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": null,
+          "Heading2": "Product Sold",
+          "Speaker": null,
+          "BodyCopy": {
+            "Data": "Upon our receipt of the returned product, we will replace or exchange the product or issue you a refund in the form of your original payment should you wish to return it."
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      },
+      {
+        "ContentType": "AboutUsContentBlock",
+        "ContentLinkExpanded": {
+          "Heading1": null,
+          "Heading2": "Product in Exchange for a Contribution",
+          "Speaker": null,
+          "BodyCopy": {
+            "Data": "Upon receipt of the returned product, we will replace or exchange the product.  Please note that due to current tax laws, contributions made to the ministry in exchange for a product are unable to be refunded."
+          },
+          "QuoteCopy": {
+            "Data": null
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,15 +1,15 @@
 "use client";
 import { useEffect, useState } from "react";
+import { IContentListItem } from "../../../../components/ContentList/ContentListItem";
+import { ProductList } from "../../../../components/ProductList";
+import { getPastContentFilterString } from "../../../../components/cms/utilities/ContentUtils";
 import {
   CONTENT_TYPES,
   IPastContentFilter,
   PAST_CONTENT_DISPLAY_FORMATS,
 } from "../../../../types";
-import { ProductList } from "../../../../components/ProductList";
-import { IContentListItem } from "../../../../components/ContentList/ContentListItem";
-import { getPastContentFilterString } from "../../../../components/cms/utilities/ContentUtils";
 
-export interface IGiftListPageProps { }
+export interface IGiftListPageProps {}
 
 export function GiftListPage(props: IGiftListPageProps) {
   const [gifts, setGifts] = useState<IContentListItem[]>();
@@ -31,10 +31,8 @@ export function GiftListPage(props: IGiftListPageProps) {
             },
           }
         );
-        console.log(res);
         if (res.ok) {
           const content = await res.json();
-          console.log("content", content);
           setGifts(content);
         } else {
           console.error("RESPSONSE NOT OK", res);

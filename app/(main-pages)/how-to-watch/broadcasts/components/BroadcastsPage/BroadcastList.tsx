@@ -61,7 +61,6 @@ export function BroadcastList(props: IBroadcastListProps) {
     <Container fluid className="full-width">
       {byCity &&
         Object.entries(byCity).map(([key, value]: [string, any]) => {
-          console.log("value", value);
           return (
             <Row
               key={key}

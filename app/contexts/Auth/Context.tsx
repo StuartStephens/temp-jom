@@ -12,7 +12,12 @@ import { IContactInformation } from "../../contexts/Auth/AccountTypes";
 import { LoadingSpinner } from "../../components/LoadingSpinner";
 
 interface AuthContextData {
-  fetchAPI: (endpoint: string, data: any, method?: string) => Promise<Response>;
+  fetchAPI: (
+    endpoint: string,
+    data: any,
+    method?: string,
+    contentType?: string
+  ) => Promise<Response>;
   login: (email: string, password: string) => Promise<void>;
   logout: () => void;
   // createContact: (
@@ -74,6 +79,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
   const [isLoading, setIsLoading] = useState(false);
 
   function storeToken(newToken: string | null) {
+    //debugger;
     if (newToken) {
       setToken(newToken);
       localStorage.setItem("authToken", newToken);
@@ -104,7 +110,6 @@ export function AuthProvider({ children }: AuthProviderProps) {
   }
 
   async function login(email: string, password: string) {
-    // debugger;
     const payload = {
       Email: email,
       Password: password,
@@ -125,7 +130,8 @@ export function AuthProvider({ children }: AuthProviderProps) {
       const message = await response.json();
       //alert("message is returned");
       const contact: IContactInformation = message as IContactInformation;
-      setContactInfo(contact);
+      // setContactInfo(contact);
+      //refreshContactInformation();
 
       updateEmailHash(contact.PrimaryEmailAddress);
       setIsLoggedIn(message.IsLoggedIn);
@@ -160,7 +166,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
     }
   }
 
-  function logout() {
+  function logout(goToHomePage?: boolean) {
     // storeToken(null);
     // localStorage.removeItem("authToken");
     setIsLoggedIn(false);
@@ -169,7 +175,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
     setIsLoggingIn(false);
     setContactInfo(undefined);
 
-    router.push("/home-page");
+    goToHomePage && router.push("/home-page");
     // window.location.href = "/";
   }
 
@@ -224,7 +230,8 @@ export function AuthProvider({ children }: AuthProviderProps) {
   async function fetchAPI(
     endpoint: string,
     data: any,
-    method: string = "POST"
+    method: string = "POST",
+    contentType: string = "application/json"
   ) {
     if (
       !isLoggedIn &&
@@ -240,7 +247,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
         : `${apiURL}/${endpoint}`;
 
     let headers = new Headers();
-    headers.append("Content-Type", "application/json");
+    headers.append("Content-Type", contentType);
     headers.append("Accept", "application/json");
     // headers.append("Origin", "https://lwcrmapi-mig2.lakewoodchurch.com");
     // headers.append("Referrer", "https://lwcrmapi-mig2.lakewoodchurch.com");
@@ -252,14 +259,18 @@ export function AuthProvider({ children }: AuthProviderProps) {
     let options: {
       method: string;
       headers: Headers;
-      body?: string;
+      body?: any;
     } = {
       method,
       headers,
     };
 
     if (data) {
-      options.body = JSON.stringify(data);
+      if (contentType.indexOf("multipart") > -1) {
+        let formData = new FormData();
+        formData.set("File", data);
+        options.body = formData;
+      } else options.body = JSON.stringify(data);
     }
 
     try {
@@ -306,8 +317,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
     });
   }
 
-  function refreshContactInformation() {
-    // debugger;
+  function refreshContactInformation(successCallback?: Function) {
     try {
       throw new Error();
     } catch (err: any) {
@@ -320,6 +330,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
     }
 
     if (isLoggedIn && token) {
+      setContactInfo(undefined);
       async function getContactInformation() {
         try {
           const response = await fetchAPI("/Contact", null, "GET");
@@ -344,14 +355,13 @@ export function AuthProvider({ children }: AuthProviderProps) {
   }
 
   useEffect(() => {
-    // if (isLoggedIn && token && (!contactInfo || !contactInfo.Id)) {
-    if (isLoggedIn && token && (!contactInfo || !contactInfo.Id)) {
+    if (isLoggedIn && token) {
       refreshContactInformation();
-    } else if (!token) {
-      fetchToken();
+    } else {
+      openLoginModal();
     }
-  }, [token, isLoggedIn]);
-  // Call getToken when the component mounts
+  }, [isLoggedIn]);
+  // // Call getToken when the component mounts
 
   function fetchToken() {
     async function getToken() {
@@ -377,9 +387,6 @@ export function AuthProvider({ children }: AuthProviderProps) {
 
         const responseToken = await response.json();
         storeToken(responseToken);
-        // refreshContactInformation();
-        // localStorage.setItem("authToken", responseToken);
-        // cookies().set("JOM_TOKEN", responseToken);
       } catch (error) {
         console.error("There was a problem with your fetch operation: ", error);
       } finally {
@@ -389,29 +396,17 @@ export function AuthProvider({ children }: AuthProviderProps) {
     getToken();
   }
   useEffect(() => {
+    const DEBUG = process.env.NODE_ENV !== "production";
+    if (DEBUG) {
+      console.debug("AuthProvider Component Mounted: Fetching Token");
+    }
+    //setIsLoggedIn(false);
     const storedToken = localStorage.getItem("authToken");
-    let ca = document.cookie.split(";");
-    const valid = ca.find((o: string) => o.indexOf("JOM_USER") >= 0);
-    if (valid && storedToken && isLoggedIn) {
-      setIsLoggedIn(true);
-      //refreshContactInformation();
-      return;
-    }
 
-    if (storedToken) {
-      storeToken(storedToken);
-      //setIsLoggedIn(true);
-      // setContactInfo
-    } else {
-      if (!token) {
-        const DEBUG = process.env.NODE_ENV !== "production";
-        if (DEBUG) {
-          console.debug("AuthProvider Component Mounted: Fetching Token");
-        }
-
-        fetchToken();
-      }
+    if (!token) {
+      fetchToken();
     }
+    // }
   }, []);
 
   if (isLoading) {
@@ -444,8 +439,11 @@ export function AuthProvider({ children }: AuthProviderProps) {
           refreshContactInformation,
         }}
       >
-        {/* {JSON.stringify(token)} */}
-        {/* {JSON.stringify(isLoggedIn)} */}
+        {/* <br />
+        IS LOGGED IN: {JSON.stringify(isLoggedIn)}
+        <br />
+        TOKEN: {JSON.stringify(token)}
+        STORED TOKEN: {JSON.stringify(localStorage.getItem("authToken"))} */}
         {/* {JSON.stringify(contactInfo)}
         // {JSON.stringify(isLoggedIn)}
         // {JSON.stringify(token)} */}

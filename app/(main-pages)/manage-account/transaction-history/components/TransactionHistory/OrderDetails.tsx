@@ -8,23 +8,23 @@ import {
   Row,
   Table,
 } from "react-bootstrap";
+import { LoadingSpinner } from "../../../../../../app/components/LoadingSpinner";
+import { useAuth } from "../../../../../../app/contexts/Auth/Context";
 import {
   IOrderHeader,
   IShoppingCartItem,
 } from "../../../../../contexts/Common/TransactionDetailsTypes";
-import { useAuth } from "../../../../../contexts/Auth/Context";
 import {
   formatDate,
   formatPrice,
   printPage,
 } from "../../../../../contexts/utilities/FormatUtils";
-import { LoadingSpinner } from "../../../../../components/LoadingSpinner";
 import { getOrderStatus } from "./OrderUtils";
-import Link from "next/link";
 
 export interface ITransactionHistoryProps {
   order: IOrderHeader | undefined;
   onClose: (orderDetails: IOrderHeader) => void;
+  churchId?: string;
 }
 
 export function OrderDetails(props: ITransactionHistoryProps) {
@@ -33,12 +33,18 @@ export function OrderDetails(props: ITransactionHistoryProps) {
   const [isLoading, setIsLoading] = useState(false);
   const { fetchAPI } = useAuth();
   const { order, onClose } = props;
+  const [churchId, setChurchId] = useState(props.churchId);
 
-  function updateOrderDetails(id: string) {
-    async function getOrderDetails(id: string) {
+  function updateOrderDetails(id: string, churchId?: string) {
+    async function getOrderDetails(id: string, churchId?: string) {
       setIsLoading(true);
+
       try {
-        const response = await fetchAPI(`Contact/Order/${id}`, undefined, "GET")
+        const response = await fetchAPI(
+          `Contact/Order/${id}${churchId ? "?churchId=" + churchId : ""}`,
+          undefined,
+          "GET"
+        )
           .then((response: any) => response.json())
           .then((data: any) => {
             setOrderDetails(data);
@@ -49,14 +55,14 @@ export function OrderDetails(props: ITransactionHistoryProps) {
         setIsLoading(false);
       }
     }
-    getOrderDetails(id);
+    getOrderDetails(id, churchId);
   }
   useEffect(() => {
-    order && order.Id && updateOrderDetails(order.Id);
+    order && order.Id && updateOrderDetails(order.Id, props?.churchId);
   }, []);
   useEffect(() => {
-    order && order.Id && updateOrderDetails(order.Id);
-  }, [order]);
+    order && order.Id && updateOrderDetails(order.Id, props?.churchId);
+  }, [order, churchId]);
   if (isLoading) {
     return <LoadingSpinner />;
   }

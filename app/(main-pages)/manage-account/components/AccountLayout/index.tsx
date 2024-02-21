@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
-import { AccountBanner } from "../../../../layouts/AccountLayout/AccountBanner";
 import { PageLayout } from "../../../../PageViews/PageLayout";
 import { Container } from "react-bootstrap";
+import { AccountBanner } from "../../../../layouts/AccountLayout/AccountBanner";
 
 export interface IAccountLayoutProps {
   children: ReactNode;

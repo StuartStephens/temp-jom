@@ -15,6 +15,10 @@ const menustate_store = require("./menustates/menustate-store.json");
 const menustate_login = require("./menustates/menustate-login.json");
 const menustate_manage_account = require("./menustates/menustate-manage-account.json");
 const menustate_manage_information = require("./menustates/menustate-manage-information.json");
+const menustate_church_info = require("./menustates/menustate-church-info.json");
+const menustate_why_give = require("./menustates/menustate-misc.json");
+const menustate_contact_us = require("./menustates/menustate-contact-us.json");
+const menustate_search = require("./menustates/menustate-search.json");
 
 const page_home = require("./pages/home.json");
 const page_aco = require("./pages/aco.json");
@@ -24,6 +28,14 @@ const page_watch = require("./pages/watch.json");
 const page_manage_account = require("./pages/manage-account.json");
 const page_our_ministry = require("./pages/our-ministry.json");
 const page_store = require("./pages/store.json");
+const page_why_give = require("./pages/why-give.json");
+const page_privacy_policy = require("./pages/privacy-policy.json");
+const page_returns_and_exchanges = require("./pages/returns-and-exchange-policy.json");
+const page_terms_of_use = require("./pages/terms-of-use.json");
+const page_forgot_password = require("./pages/forgot-password.json");
+const page_set_password = require("./pages/set-password.json");
+const page_contact_us = require("./pages/contact-us.json");
+const page_search = require("./pages/search.json");
 const component_types = require("./componenttypes/componenttypes.json");
 
 // Something more
@@ -42,8 +54,6 @@ const books = content.getDummyContent("BOOK", 10);
 const music = content.getDummyContent("MUSIC", 10);
 const series = content.getDummyContent("SERIES", 10);
 const gifts = content.getDummyContent("GIFT", 10);
-
-console.log("BOOKS", books);
 
 const cb = { ...messages };
 module.exports = () => ({
@@ -75,6 +85,10 @@ module.exports = () => ({
     menustate_login,
     menustate_manage_account,
     menustate_manage_information,
+    menustate_church_info,
+    menustate_why_give,
+    menustate_contact_us,
+    menustate_search,
   ],
   page: [
     ...page_home,
@@ -85,6 +99,14 @@ module.exports = () => ({
     ...page_manage_account,
     ...page_our_ministry,
     ...page_store,
+    ...page_why_give,
+    ...page_privacy_policy,
+    ...page_returns_and_exchanges,
+    ...page_terms_of_use,
+    ...page_forgot_password,
+    ...page_set_password,
+    ...page_contact_us,
+    ...page_search,
   ],
   component: component_types,
   shoutofpraise: praises,
